@@ -18,6 +18,14 @@
   
   <p><a href="/DOC/Deutsche Übungen.docx" download>
   Excercices d'allemand</a></p>
+	
+	<?php
+$date = date("d-m-Y H:i:s");
+list($finDate,$finHeure) = preg_split('/ /',$date);
+list($finAnnee,$finMois,$finJr) = preg_split('/-/',$finDate);
+list($finHrs,$finMin) = preg_split('/:/',$finHeure);
+echo 'Nous sommes le '.$finDate.' il est '.$finHeure;
+  ?>
   
 
   </body>
