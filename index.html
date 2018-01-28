@@ -1,4 +1,6 @@
 <head>
+<link rel="stylesheet" href="CSS/index.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -11,5 +13,60 @@
 </head>
 
 <body>
-   <img src="https://cloud.githubusercontent.com/assets/21039093/17666427/641736d0-6300-11e6-843d-2f2e39141785.png" width="900" height="600">
+   
+   <div id="fullScreenDiv">
+        <img src="Images/logo.png" id="videosubstitute" alt="logo" width="300px">
+        <div id="videoDiv">           
+          <video preload="preload" id="video" autoplay="autoplay" loop="loop">
+          <source src="Videos/bruit.webm" type="video/webm"></source>
+          <source src="Videos/bruit.mp4" type="video/mp4"></source>
+          </video>
+
+
+
+        </div>
+        <div id="messageBox"> 
+            <div>
+                <h1>STOP AU BRUIT</h1>
+
+
+             <p>
+               <button onclick="enableMute()" type="button">Couper le son</button>
+				<button onclick="disableMute()" type="button">Remettre le son</button>
+				</p>
+				
+
+				<p id="messagealamer">Malheureusment nous, nous ne pouvons pas couper le son. 
+		<p id="messagealamer">Autoroute Aix-Marseille -  Chemin de la Haute Bedoule - Aucune protection sonore ! Nous vivons avec 70 dB de moyenne (limite légale de 75 dB). Nous aurions pourtant besoin de protections sonores. Soutenez notre action en signant notre pétition.</p>
+
+
+				<script>
+				var vid = document.getElementById("video");
+
+				function enableMute() { 
+				    vid.muted = true;
+				} 
+
+				function disableMute() { 
+				    vid.muted = false;
+				} 
+
+				function checkMute() { 
+				    alert(vid.muted);
+				} 
+				</script> 
+
+                </div>
+			</div>
+
+		
+
+	</div>
+
+
+
+               
+            
+    </div>
+
 </body>
