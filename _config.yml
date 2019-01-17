@@ -3,7 +3,7 @@ title: Stop au bruit!
 email: m.gallouin@gmail.com
 url: http://www.chutt.org
 description: "Association des riverains du chemin de la Haute Bedoule pour lutter contre les nuisances sonores de l'autoroute A51"
-skills: CHUTT - Collectif Haute-Bedoule Uni pour un Trafic plus Tranquille
+skills: Collectif Haute-Bedoule Uni pour un Trafic plus Tranquille - CHUTT
 meta_author: CHUTT - Collectif Haute-Bedoule Uni pour un Trafic plus Tranquille
 
 # Google webmaster tools
@@ -32,9 +32,9 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  location: CHUTT
+  social: Suivez-nous!
+  credits: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -51,11 +51,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Association
+  - line: Loi 1901
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: Vibrons tous ensemble avec l'A51
 
 # Build settings
 markdown: kramdown
