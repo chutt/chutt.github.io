@@ -38,17 +38,17 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: 
-    url: 
+  - title: twitter
+    url: http://twitter.com/
 
-  - title: 
+  - title: facebook
     url:
-  - title:
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/
 
 # Postal address (add as many lines as necessary)
 address:
