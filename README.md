@@ -1,1 +1,1 @@
-batardo.github.io/chutt.github.io
+chutt.github.io
