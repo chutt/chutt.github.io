@@ -17,13 +17,13 @@
             <div class="container">
             <div class="row">
                 
-                    {% if post.category contains 'cr' %}
+                    {% if post.category contains 'pv' %}
 
                     <div class="col-lg-8 col-lg-offset-2">
                         <p>{{ post.date | date_to_string }}</p>
                         <p>{{ post.title }} : {{ post.description }}</p>
                         <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Téléchargez le compte-rendu</a>
+                        <i class="fa fa-download"></i> Consultez le PV d'assemblée constitutive</a>
                         <br/>
                         <br/>
 
@@ -37,6 +37,17 @@
                         <p>{{ post.title }} : {{ post.description }}</p>
                         <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Consultez les statuts</a>
+                        <br/>
+                        <br/>
+                    </div>
+
+                    {% elsif post.category == 'presse' %}
+
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>{{ post.date | date_to_string }}</p>
+                        <p>{{ post.title }} : {{ post.description }}</p>
+                        <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Lire l'article</a>
                         <br/>
                         <br/>
                     </div>
