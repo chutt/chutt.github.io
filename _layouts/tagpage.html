@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
+ {% include head.html %}
     <body id="page-top" class="index">
     {% include nav.html %}
 
-	<div class="post">
-	<h1>{{ page.tag }}</h1>
-	<ul>
-	{% for post in site.tags[page.tag] %}
-	  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-	    {{ post.description }}
-	  </li>
-	{% endfor %}
-	</ul>
-	</div>
-	<hr>
 
-    {% if site.contact == "static" %}
+<section class="success" id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                   <h1 class="name">{{ page.title }}</h1>
+                    <hr class="star-light">
+                    <p><img src="/img/profile.png" alt="" width="150px"></p>
+                </div>
+            </div>
+        </div>
+
+         </section>
+
+
+<section class="Portfolio" id="about">
+<div class="container">
+            <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    	    
+
+
+{% for post in site.tags[page.tag] %}
+  {% if post.lang %}
+  <p> lang="{{post.lang}}"></p>
+  {% else %}
+  <p>
+  {% endif %}
+  	<a href="{{ post.doclink }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+  	{{ post.description }}
+  	<!-- Tags: {{ post.tags | join: ", " }} -->
+  </p>
+{% endfor %}
+</ul>
+</div>
+</div>
+</div>
+
+</section>
+
+{% if site.contact == "static" %}
     {% include contact_static.html %}
     {% elsif site.contact == "disqus" %}
     {% include contact_disqus.html %}
@@ -29,6 +57,3 @@
     {% include js.html %}
     </body>
 </html>
-
-
-
