@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-02-03T15:52:17+01:00</updated>
+  <updated>2019-02-03T16:31:55+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -54,8 +54,42 @@
     </entry>
   
     <entry>
-      <title type="html">Pemière réunion</title>
-      <link href="http://localhost:4000/pv/2019/01/19/reunion-1/" rel="alternate" type="text/html" title="Pemière réunion" />
+      <title type="html">Carte interactive du bruit</title>
+      <link href="http://localhost:4000/presse/2019/01/25/carte-bruit/" rel="alternate" type="text/html" title="Carte interactive du bruit" />
+      <published>2019-01-25T00:00:00+01:00</published>
+      <updated>2019-01-25T00:00:00+01:00</updated>
+      <id>http://localhost:4000/presse/2019/01/25/carte-bruit</id>
+      <content type="html" xml:base="http://localhost:4000/presse/2019/01/25/carte-bruit/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="presse" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Première réunion</title>
+      <link href="http://localhost:4000/pv/2019/01/19/reunion-1/" rel="alternate" type="text/html" title="Première réunion" />
       <published>2019-01-19T00:00:00+01:00</published>
       <updated>2019-01-19T00:00:00+01:00</updated>
       <id>http://localhost:4000/pv/2019/01/19/reunion-1</id>
