@@ -22,6 +22,12 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <p>{{ post.date | date_to_string }}</p>
                         <p>{{ post.title }}</p>
+                            <span>[
+                            {% for tag in page.tags %}
+                             {% capture tag_name %}{{ tag }}{% endcapture %}
+                                 <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                                     {% endfor %}
+                                        ]</span>
                         <p>{{ post.description }}</p>
                         <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Consultez le PV</a>
@@ -36,6 +42,12 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <p>{{ post.date | date_to_string }}</p>
                         <p>{{ post.title }}</p>
+                         <span>[
+                            {% for tag in page.tags %}
+                             {% capture tag_name %}{{ tag }}{% endcapture %}
+                                 <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                                     {% endfor %}
+                                        ]</span>
                         <p>{{ post.description }}</p>
                         <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Consultez les statuts</a>
@@ -48,6 +60,12 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <p>{{ post.date | date_to_string }}</p>
                         <p>{{ post.title }}</p>
+                         <span>[
+                            {% for tag in page.tags %}
+                             {% capture tag_name %}{{ tag }}{% endcapture %}
+                                 <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                                     {% endfor %}
+                                        ]</span>
                         <p>{{ post.description }}</p>
                         <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Lire l'article</a>

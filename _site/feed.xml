@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-02-03T20:22:30+01:00</updated>
+  <updated>2019-02-03T20:49:33+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -44,6 +44,8 @@
       
 
       
+        <category term="association" />
+      
 
       
         <summary type="html"></summary>
@@ -77,6 +79,8 @@
         <category term="presse" />
       
 
+      
+        <category term="lutte-contre-le-bruit" />
       
 
       
@@ -112,6 +116,8 @@
       
 
       
+        <category term="association" />
+      
 
       
         <summary type="html"></summary>
@@ -145,6 +151,8 @@
         <category term="presse" />
       
 
+      
+        <category term="lutte-contre-le-bruit" />
       
 
       
