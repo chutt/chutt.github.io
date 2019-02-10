@@ -8,5 +8,5 @@ description: "Un revêtement pour limiter les nuisances sonores a été posé su
 linkdoc: 
 nextdate:
 tags: lutte-contre-le-bruit
-doclink: "/doc/presse/enrobé-autoroute.pdf"
+doclink: "/doc/presse/enrobé-autoroute.pdf"
 ---
