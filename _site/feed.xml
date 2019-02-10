@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-02-10T19:05:46+01:00</updated>
+  <updated>2019-02-10T19:28:54+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -26,6 +26,42 @@
       <updated>2019-02-09T00:00:00+01:00</updated>
       <id>http://localhost:4000/presse/2019/02/09/enquete-publique-bruit</id>
       <content type="html" xml:base="http://localhost:4000/presse/2019/02/09/enquete-publique-bruit/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="presse" />
+      
+
+      
+        <category term="lutte-contre-le-bruit" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">33 mois de vie en moins à cause du bruit!</title>
+      <link href="http://localhost:4000/presse/2019/02/07/impact-bruit/" rel="alternate" type="text/html" title="33 mois de vie en moins à cause du bruit!" />
+      <published>2019-02-07T00:00:00+01:00</published>
+      <updated>2019-02-07T00:00:00+01:00</updated>
+      <id>http://localhost:4000/presse/2019/02/07/impact-bruit</id>
+      <content type="html" xml:base="http://localhost:4000/presse/2019/02/07/impact-bruit/"></content>
 
       
       
