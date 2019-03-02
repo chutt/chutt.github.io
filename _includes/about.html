@@ -31,5 +31,8 @@
                     <p>Marre du bruit ? Mettez sur pause. Nous, on en rêve...</p>
                 </div> 
             </div>
+            {% if page.slider %}
+                {% include slider.html height="20" unit="%" transition="slide" duration="3" %}
+                {% endif %}
         </div>
     </section>
