@@ -36,6 +36,11 @@
                 </div>
                     <br>
                     <br>
+                        
+                {% if page.slider %}
+                {% include slider.html height="400" unit="px" transition="slide" duration="3" %}
+                {% endif %}
+
                 </div>
             </div>
     </div>
