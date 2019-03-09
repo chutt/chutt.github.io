@@ -470,7 +470,7 @@ footer .footer-below {
 }
 
 .responsive{
-    width: : 100%;
+    width: : auto
     height: auto;
     max-width: 375px;
 }
