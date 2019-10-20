@@ -4,7 +4,7 @@ date: 2019-07-24
 img: 
 category: presse
 title: "Inscription au journal officiel"
-description: "C'est fait! En ce 24 juillet, notre association a officiellement été créee. Vous pouvez consulter le témoin de publication paru au journal officiel."
+description: "C'est fait! Notre association est officiellement été créée. Vous pouvez consulter le témoin de publication paru au journal officiel."
 linkdoc: 
 nextdate:
 tags: association
