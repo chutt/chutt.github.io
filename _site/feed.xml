@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-11-10T20:57:16+01:00</updated>
+  <updated>2019-11-10T21:00:55+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,6 +18,36 @@
   
 
   
+  
+    <entry>
+      <title type="html"></title>
+      <link href="http://localhost:4000/2019/11/10/2019-09-14-radar-sonore/" rel="alternate" type="text/html" title="" />
+      <published>2019-11-10T21:00:55+01:00</published>
+      <updated>2019-11-10T21:00:55+01:00</updated>
+      <id>http://localhost:4000/2019/11/10/2019-09-14-radar-sonore</id>
+      <content type="html" xml:base="http://localhost:4000/2019/11/10/2019-09-14-radar-sonore/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Retrouvez-nous sur Facebook !</title>
@@ -45,42 +75,6 @@
 
       
         <category term="association" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Des radars sonores à l’étude</title>
-      <link href="http://localhost:4000/presse/2019/09/14/radar-sonore/" rel="alternate" type="text/html" title="Des radars sonores à l'étude" />
-      <published>2019-09-14T00:00:00+02:00</published>
-      <updated>2019-09-14T00:00:00+02:00</updated>
-      <id>http://localhost:4000/presse/2019/09/14/radar-sonore</id>
-      <content type="html" xml:base="http://localhost:4000/presse/2019/09/14/radar-sonore/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="presse" />
-      
-
-      
-        <category term="lutte-contre-le-bruit" />
       
 
       

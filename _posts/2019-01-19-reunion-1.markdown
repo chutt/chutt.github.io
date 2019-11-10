@@ -5,8 +5,6 @@ img:
 category: pv
 title: "Première réunion"
 description: "Merci à tous d'être venu nombreux. L'association vient d'être créee. Vous pouvez désormais consulter le procès verbal d'assemblée constitutive."
-linkdoc: 
-nextdate:
 tags: association
 doclink: "/doc/pv/pv_1.pdf"
 ---
