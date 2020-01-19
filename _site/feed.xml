@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-19T21:49:33+01:00</updated>
+  <updated>2020-01-19T22:14:39+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,6 +18,42 @@
   
 
   
+  
+    <entry>
+      <title type="html">Assemblée générale annuelle du 01/02/2020</title>
+      <link href="http://localhost:4000/info/2020/01/18/ag-2020/" rel="alternate" type="text/html" title="Assemblée générale annuelle du 01/02/2020" />
+      <published>2020-01-18T00:00:00+01:00</published>
+      <updated>2020-01-18T00:00:00+01:00</updated>
+      <id>http://localhost:4000/info/2020/01/18/ag-2020</id>
+      <content type="html" xml:base="http://localhost:4000/info/2020/01/18/ag-2020/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Retrouvez-nous sur Facebook !</title>
@@ -333,42 +369,6 @@
 
       
         <category term="lutte-contre-le-bruit" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Première réunion</title>
-      <link href="http://localhost:4000/pv/2019/01/19/reunion-1/" rel="alternate" type="text/html" title="Première réunion" />
-      <published>2019-01-19T00:00:00+01:00</published>
-      <updated>2019-01-19T00:00:00+01:00</updated>
-      <id>http://localhost:4000/pv/2019/01/19/reunion-1</id>
-      <content type="html" xml:base="http://localhost:4000/pv/2019/01/19/reunion-1/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="pv" />
-      
-
-      
-        <category term="association" />
       
 
       

@@ -1,0 +1,11 @@
+---
+layout: default
+date: 2020-01-18
+img: 
+category: info
+title: "Assemblée générale annuelle du 01/02/2020"
+description: "Nous avons le plaisir de vous inviter à notre prochaine AG du 1er Février prochain. Plus d'informations dans la convocation ci-dessous. Merci de nous confirmer votre présence - À très vite!"
+tags: association
+doclink: "/doc/Convocation_AG_2020.pdf"
+button_name: Convocation AG
+---
