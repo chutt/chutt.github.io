@@ -26,10 +26,15 @@
   {% endif %}
 
 
-<section class="Portfolio" id="about">
+<section class="Portfolio" id="about" style="text-align: justify;">
 <div class="container">
             <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
+                      <p style="font-size: 25px;">Nos articles de la rubrique <span class="post-tags">
+                        [&nbsp;
+                      <code class="highligher-rouge"><nobr>{{ page.tag }}</nobr></code>&nbsp;
+                        ]
+                      </span></p>
                     	    
 
 
@@ -44,10 +49,7 @@
   	<!-- Tags: {{ post.tags | join: ", " }} -->
   </p>
 {% endfor %}
-</ul>
-</div>
-</div>
-</div>
+
 
 </section>
 
