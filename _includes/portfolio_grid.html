@@ -20,9 +20,9 @@
                     {% if post.category contains 'pv' %}
 
                     <div class="col-lg-8 col-lg-offset-2">
-                        <p>{{ post.date | date_to_string }}</p>
-                        <p style="font-size: 30px;">{{ post.title }}</p>
-                                       <span class="post-tags">
+                        <p style="font-size: 27px;">{{ post.title }}</p>
+                         <i>Publié le {{ post.date | date_to_string }} dans la rubrique </i>
+                        <span class="post-tags">
                         [&nbsp;
                         {% for tag in post.tags %}
                           {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -32,7 +32,7 @@
                       </span>
 
                         <p>{{ post.description }}</p>
-                        <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
+                        <a href="{{ post.doclink }}" class="btn btn-outline">
                         <i class="fa fa-download"></i> Consultez le PV</a>
                         <br/>
                         <br/>
@@ -42,8 +42,8 @@
                     {% elsif post.category == 'info' %}
 
                     <div class="col-lg-8 col-lg-offset-2">
-                        <p>{{ post.date | date_to_string }}</p>
-                        <p style="font-size: 30px;">{{ post.title }}</p>
+                        <p style="font-size: 27px;">{{ post.title }}</p>
+                         <i>Publié le {{ post.date | date_to_string }} dans la rubrique </i>
                          <span class="post-tags">
                         [&nbsp;
                         {% for tag in post.tags %}
@@ -53,7 +53,7 @@
                         ]
                       </span>
                         <p>{{ post.description }}</p>
-                        <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
+                        <a href="{{ post.doclink }}" class="btn btn-outline">
                         <i class="fa fa-download"></i>{{ post.button_name }}</a>
                         <br/>
                         <br/>
@@ -63,8 +63,8 @@
                     {% elsif post.category == 'statuts' %}
 
                     <div class="col-lg-8 col-lg-offset-2">
-                        <p>{{ post.date | date_to_string }}</p>
-                        <p style="font-size: 30px;">{{ post.title }}</p>
+                        <p style="font-size: 27px;">{{ post.title }}</p>
+                         <i>Publié le {{ post.date | date_to_string }} dans la rubrique </i>
                          <span class="post-tags">
                         [&nbsp;
                         {% for tag in post.tags %}
@@ -74,7 +74,7 @@
                         ]
                       </span>
                         <p>{{ post.description }}</p>
-                        <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
+                        <a href="{{ post.doclink }}" class="btn btn-outline">
                         <i class="fa fa-download"></i> Consultez les statuts</a>
                         <br/>
                         <br/>
@@ -83,8 +83,8 @@
                     {% elsif post.category == 'message' %}
 
                     <div class="col-lg-8 col-lg-offset-2">
-                        <p>{{ post.date | date_to_string }}</p>
-                        <p style="font-size: 30px;">{{ post.title }}</p>
+                        <p style="font-size: 27px;">{{ post.title }}</p>
+                         <i>Publié le {{ post.date | date_to_string }}</i>
                         <p>{{ post.description }}</p>
                         <br/>
                         <br/>
@@ -93,8 +93,8 @@
                     {% elsif post.category == 'presse' %}
 
                     <div class="col-lg-8 col-lg-offset-2">
-                        <p>{{ post.date | date_to_string }}</p>
-                        <p style="font-size: 30px;">{{ post.title }}</p>
+                        <p style="font-size: 27px;">{{ post.title }}</p>
+                         <i>Publié le {{ post.date | date_to_string }} dans la rubrique </i>
                          <span class="post-tags">
                         [&nbsp;
                         {% for tag in post.tags %}
@@ -103,8 +103,8 @@
                         {% endfor %}
                         ]
                       </span>
-                        <p>{{ post.description }}</p>
-                        <a href="{{ post.doclink }}" class="btn btn-lg btn-outline">
+                        <p style="text-align:justify;">{{ post.description }}</p>
+                        <a href="{{ post.doclink }}" class="btn btn-outline">
                         <i class="fa fa-download"></i> Lire l'article</a>
                         <br/>
                         <br/>
