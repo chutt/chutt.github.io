@@ -21,6 +21,11 @@
          </section>
 
 
+{% if page.url contains "lutte-contre" %}
+  {% include video.html %}
+  {% endif %}
+
+
 <section class="Portfolio" id="about">
 <div class="container">
             <div class="row">
@@ -35,7 +40,7 @@
   <p>
   {% endif %}
   	<a href="{{ post.doclink }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-  	{{ post.description }}
+    {{ post.description }}
   	<!-- Tags: {{ post.tags | join: ", " }} -->
   </p>
 {% endfor %}

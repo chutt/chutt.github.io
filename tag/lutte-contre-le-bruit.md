@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Lutter contre le bruit de l'autoroute"
+title: "Mieux vivre à côté d'un autoroute"
 permalink: /lutte-contre-le-bruit/
 tag: lutte-contre-le-bruit
 ---
