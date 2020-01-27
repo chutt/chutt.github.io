@@ -17,7 +17,7 @@
             <div class="container">
             <div class="row">
                 
-                    {% if post.category contains 'pv' %}
+                   
 
                     <div class="col-lg-8 col-lg-offset-2">
                         <p style="font-size: 27px;">{{ post.title }}</p>
@@ -26,92 +26,35 @@
                         [&nbsp;
                         {% for tag in post.tags %}
                           {% capture tag_name %}{{ tag }}{% endcapture %}
-                          <a class="no-underline" href="/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
+                          <a class="no-underline" href="{{ post.tag_url }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
                         {% endfor %}
                         ]
                       </span>
-
                         <p>{{ post.description }}</p>
+
+                        {% if post.category contains 'pv' %}
                         <a href="{{ post.doclink }}" class="btn btn-outline">
                         <i class="fa fa-download"></i> Consultez le PV</a>
-                        <br/>
-                        <br/>
 
-                    </div>
-
-                    {% elsif post.category == 'info' %}
-
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <p style="font-size: 27px;">{{ post.title }}</p>
-                         <i>Publié le {{ post.date | date_to_string }} dans la rubrique </i>
-                         <span class="post-tags">
-                        [&nbsp;
-                        {% for tag in post.tags %}
-                          {% capture tag_name %}{{ tag }}{% endcapture %}
-                          <a class="no-underline" href="/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
-                        {% endfor %}
-                        ]
-                      </span>
-                        <p>{{ post.description }}</p>
+                        {% elsif post.category == 'info' %}
                         <a href="{{ post.doclink }}" class="btn btn-outline">
                         <i class="fa fa-download"></i>{{ post.button_name }}</a>
-                        <br/>
-                        <br/>
-                    </div>
-                
 
-                    {% elsif post.category == 'statuts' %}
-
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <p style="font-size: 27px;">{{ post.title }}</p>
-                         <i>Publié le {{ post.date | date_to_string }} dans la rubrique </i>
-                         <span class="post-tags">
-                        [&nbsp;
-                        {% for tag in post.tags %}
-                          {% capture tag_name %}{{ tag }}{% endcapture %}
-                          <a class="no-underline" href="/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
-                        {% endfor %}
-                        ]
-                      </span>
-                        <p>{{ post.description }}</p>
+                        {% elsif post.category == 'statuts' %}
                         <a href="{{ post.doclink }}" class="btn btn-outline">
                         <i class="fa fa-download"></i> Consultez les statuts</a>
-                        <br/>
-                        <br/>
-                    </div>
 
-                    {% elsif post.category == 'message' %}
-
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <p style="font-size: 27px;">{{ post.title }}</p>
-                         <i>Publié le {{ post.date | date_to_string }}</i>
-                        <p>{{ post.description }}</p>
-                        <br/>
-                        <br/>
-                    </div>
-
-                    {% elsif post.category == 'presse' %}
-
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <p style="font-size: 27px;">{{ post.title }}</p>
-                         <i>Publié le {{ post.date | date_to_string }} dans la rubrique </i>
-                         <span class="post-tags">
-                        [&nbsp;
-                        {% for tag in post.tags %}
-                          {% capture tag_name %}{{ tag }}{% endcapture %}
-                          <a class="no-underline" href="/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
-                        {% endfor %}
-                        ]
-                      </span>
-                        <p style="text-align:justify;">{{ post.description }}</p>
+                        {% elsif post.category == 'presse' %}
                         <a href="{{ post.doclink }}" class="btn btn-outline">
                         <i class="fa fa-download"></i> Lire l'article</a>
+                        {% endif %} 
+
                         <br/>
                         <br/>
                     </div>
              
                 
-                    {% endif %}  
+                    
             {% endfor %}    
 
             </div>

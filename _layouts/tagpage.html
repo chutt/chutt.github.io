@@ -13,7 +13,11 @@
                   <br>
                     <p><img src="/img/logo.png" alt="" width="175px"></p>
                     <hr class="star-light">
-                    <h1 class="">{{ page.title }}</h1>
+                    {% if page.url contains "vivre-avec-autoroute" %}
+                    <h1 class="">{{ page.headline }}</h1>
+                    {% else %}
+                     <h1 class="">{{ page.title }}</h1>
+                    {% endif%}
                 </div>
             </div>
         </div>
@@ -21,7 +25,7 @@
          </section>
 
 
-{% if page.url contains "lutte-contre" %}
+{% if page.url contains "vivre-avec-autoroute" %}
   {% include video.html %}
   {% endif %}
 
@@ -30,7 +34,7 @@
 <div class="container">
             <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                      <p style="font-size: 25px;">Nos articles de la rubrique <span class="post-tags">
+                      <p style="font-size: 20px;">Nos articles de la rubrique <span class="post-tags">
                         [&nbsp;
                       <code class="highligher-rouge"><nobr>{{ page.tag }}</nobr></code>&nbsp;
                         ]

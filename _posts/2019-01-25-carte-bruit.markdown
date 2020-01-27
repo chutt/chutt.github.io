@@ -6,5 +6,6 @@ img:
 title: "Carte interactive du bruit"
 description: "La métropole Marseille Provence publie sur son site web la carte interactive du bruit. Consultez cette carte pour connaitre votre exposition au bruit en décibel."
 tags: lutte-contre-le-bruit
+tag_url: /vivre-avec-autoroute/
 doclink: "http://carto.marseille-provence.fr/geowebMPM/portal.do"
 ---
