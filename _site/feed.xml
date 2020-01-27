@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-27T22:27:10+01:00</updated>
+  <updated>2020-01-27T23:05:38+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,6 +18,42 @@
   
 
   
+  
+    <entry>
+      <title type="html">Mieux vivre avec l’autoroute - Épisode 1</title>
+      <link href="http://localhost:4000/info/2020/01/24/autoroute-conseils/" rel="alternate" type="text/html" title="Mieux vivre avec l'autoroute - Épisode 1" />
+      <published>2020-01-24T00:00:00+01:00</published>
+      <updated>2020-01-24T00:00:00+01:00</updated>
+      <id>http://localhost:4000/info/2020/01/24/autoroute-conseils</id>
+      <content type="html" xml:base="http://localhost:4000/info/2020/01/24/autoroute-conseils/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="lutte-contre-le-bruit" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Assemblée générale annuelle du 01/02/2020</title>
@@ -333,42 +369,6 @@
 
       
         <category term="association" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Carte interactive du bruit</title>
-      <link href="http://localhost:4000/presse/2019/01/25/carte-bruit/" rel="alternate" type="text/html" title="Carte interactive du bruit" />
-      <published>2019-01-25T00:00:00+01:00</published>
-      <updated>2019-01-25T00:00:00+01:00</updated>
-      <id>http://localhost:4000/presse/2019/01/25/carte-bruit</id>
-      <content type="html" xml:base="http://localhost:4000/presse/2019/01/25/carte-bruit/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="presse" />
-      
-
-      
-        <category term="lutte-contre-le-bruit" />
       
 
       
