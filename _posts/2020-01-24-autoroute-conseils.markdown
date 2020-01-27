@@ -6,7 +6,7 @@ category: info
 title: "Mieux vivre avec l'autoroute - Épisode 1"
 description: "Nous démarrons une série de conseils pour mieux vivre avec l'autoroute. Le premier épisode est en ligne, la suite au prochain numéro. N'hésitez pas à nous faire remonter vos propres conseils."
 tags: lutte-contre-le-bruit
-tag_url: /vivre-avec-autouroute/
-doclink: "/vivre-avec-autouroute/"
+tag_url: /vivre-avec-autoroute/
+doclink: "/vivre-avec-autoroute/"
 button_name: Voir épisode 1
 ---
