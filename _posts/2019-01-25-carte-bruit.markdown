@@ -8,4 +8,5 @@ description: "La métropole Marseille Provence publie sur son site web la carte 
 tags: lutte-contre-le-bruit
 tag_url: /vivre-avec-autoroute/
 doclink: "http://carto.marseille-provence.fr/geowebMPM/portal.do"
+meta: "noindex"
 ---

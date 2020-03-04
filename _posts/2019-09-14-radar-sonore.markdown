@@ -9,4 +9,5 @@ nextdate:
 tags: lutte-contre-le-bruit
 tag_url: /vivre-avec-autoroute/
 doclink: '/doc/presse/radar_sonore.pdf'
+meta: "noindex"
 ---

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-02-01T11:10:56+01:00</updated>
+  <updated>2020-03-04T21:57:58+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,6 +18,78 @@
   
 
   
+  
+    <entry>
+      <title type="html">Rencontre avec Mr. Molino, maire de Septèmes</title>
+      <link href="http://localhost:4000/info/2020/03/02/reunion-mairie-septemes/" rel="alternate" type="text/html" title="Rencontre avec Mr. Molino, maire de Septèmes" />
+      <published>2020-03-02T00:00:00+01:00</published>
+      <updated>2020-03-02T00:00:00+01:00</updated>
+      <id>http://localhost:4000/info/2020/03/02/reunion-mairie-septemes</id>
+      <content type="html" xml:base="http://localhost:4000/info/2020/03/02/reunion-mairie-septemes/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Assemblée générale du 1er février 2020</title>
+      <link href="http://localhost:4000/pv/2020/03/01/reunion-2/" rel="alternate" type="text/html" title="Assemblée générale du 1er février 2020" />
+      <published>2020-03-01T00:00:00+01:00</published>
+      <updated>2020-03-01T00:00:00+01:00</updated>
+      <id>http://localhost:4000/pv/2020/03/01/reunion-2</id>
+      <content type="html" xml:base="http://localhost:4000/pv/2020/03/01/reunion-2/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="pv" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Mieux vivre avec l’autoroute - Épisode 1</title>
@@ -297,78 +369,6 @@
 
       
         <category term="lutte-contre-le-bruit" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Les enrobés d’autoroutes</title>
-      <link href="http://localhost:4000/presse/2019/02/02/enrob%C3%A9-autoroute/" rel="alternate" type="text/html" title="Les enrobés d'autoroutes" />
-      <published>2019-02-02T00:00:00+01:00</published>
-      <updated>2019-02-02T00:00:00+01:00</updated>
-      <id>http://localhost:4000/presse/2019/02/02/enrob%C3%A9-autoroute</id>
-      <content type="html" xml:base="http://localhost:4000/presse/2019/02/02/enrob%C3%A9-autoroute/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="presse" />
-      
-
-      
-        <category term="lutte-contre-le-bruit" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Nouveaux statuts</title>
-      <link href="http://localhost:4000/statuts/2019/02/01/statuts/" rel="alternate" type="text/html" title="Nouveaux statuts" />
-      <published>2019-02-01T00:00:00+01:00</published>
-      <updated>2019-02-01T00:00:00+01:00</updated>
-      <id>http://localhost:4000/statuts/2019/02/01/statuts</id>
-      <content type="html" xml:base="http://localhost:4000/statuts/2019/02/01/statuts/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="statuts" />
-      
-
-      
-        <category term="association" />
       
 
       

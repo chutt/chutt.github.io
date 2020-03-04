@@ -1,0 +1,11 @@
+---
+layout: default
+date: 2020-03-01
+img: 
+category: pv
+title: "Assemblée générale du 1er février 2020"
+description: "Merci pour votre participation à notre dernière AG. Vous trouverez dans le procès verbal ci-joint le compte-rendu des activités menées en 2019 ainsi qu'une présentation des projets à venir."
+tags: association
+doclink: "/doc/pv/pv_2.pdf"
+meta: "noindex"
+---

@@ -9,4 +9,5 @@ nextdate:
 tags: association
 doclink: "https://www.facebook.com/StopAuBruitA51/"
 button_name: Vers la page Facebook
+meta: "noindex"
 ---

@@ -8,4 +8,5 @@ description: "Participez à la consultation publique contre le bruit des territo
 tags: lutte-contre-le-bruit
 tag_url: /vivre-avec-autoroute/
 doclink: 'https://www.registre-numerique.fr/consult-ppbe-marseille-provence'
+meta: "noindex"
 ---

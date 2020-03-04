@@ -8,4 +8,5 @@ description: "Nous avons le plaisir de vous inviter à notre prochaine AG du 1er
 tags: association
 doclink: "/doc/Convocation_AG_2020.pdf"
 button_name: Convocation AG
+meta: "noindex"
 ---
