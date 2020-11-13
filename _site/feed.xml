@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-10-06T20:17:46+02:00</updated>
+  <updated>2020-11-13T18:26:26+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,6 +18,78 @@
   
 
   
+  
+    <entry>
+      <title type="html">Lettre de la mairie à la DREAL</title>
+      <link href="http://localhost:4000/info/2020/10/16/lettre-mairie-dreal/" rel="alternate" type="text/html" title="Lettre de la mairie à la DREAL" />
+      <published>2020-10-16T00:00:00+02:00</published>
+      <updated>2020-10-16T00:00:00+02:00</updated>
+      <id>http://localhost:4000/info/2020/10/16/lettre-mairie-dreal</id>
+      <content type="html" xml:base="http://localhost:4000/info/2020/10/16/lettre-mairie-dreal/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="lutte-contre-le-bruit" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Lettre de la mairie à la DIRMED</title>
+      <link href="http://localhost:4000/info/2020/10/16/lettre-mairie-dirmed/" rel="alternate" type="text/html" title="Lettre de la mairie à la DIRMED" />
+      <published>2020-10-16T00:00:00+02:00</published>
+      <updated>2020-10-16T00:00:00+02:00</updated>
+      <id>http://localhost:4000/info/2020/10/16/lettre-mairie-dirmed</id>
+      <content type="html" xml:base="http://localhost:4000/info/2020/10/16/lettre-mairie-dirmed/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="lutte-contre-le-bruit" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Adhésion à la FNE13 - France Nature Environnement</title>
@@ -293,78 +365,6 @@
 
       
         <category term="info" />
-      
-
-      
-        <category term="association" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Des radars sonores à l’étude</title>
-      <link href="http://localhost:4000/presse/2019/09/14/radar-sonore/" rel="alternate" type="text/html" title="Des radars sonores à l'étude" />
-      <published>2019-09-14T00:00:00+02:00</published>
-      <updated>2019-09-14T00:00:00+02:00</updated>
-      <id>http://localhost:4000/presse/2019/09/14/radar-sonore</id>
-      <content type="html" xml:base="http://localhost:4000/presse/2019/09/14/radar-sonore/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="presse" />
-      
-
-      
-        <category term="lutte-contre-le-bruit" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Inscription au journal officiel</title>
-      <link href="http://localhost:4000/presse/2019/07/24/journal-officiel/" rel="alternate" type="text/html" title="Inscription au journal officiel" />
-      <published>2019-07-24T00:00:00+02:00</published>
-      <updated>2019-07-24T00:00:00+02:00</updated>
-      <id>http://localhost:4000/presse/2019/07/24/journal-officiel</id>
-      <content type="html" xml:base="http://localhost:4000/presse/2019/07/24/journal-officiel/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="presse" />
       
 
       
