@@ -3,20 +3,19 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<p>Laissez-nous un commentaire</p>
+				<h1>Laissez-nous un commentaire</h1>
 				<hr class="star-primary">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 text-center">
+			<div class="col-lg-8 col-lg-offset-2">
 				<form method="POST" action="https://staticgeorge.herokuapp.com/v2/entry/chutt/chutt.github.io/master/comments">
 	 			  <input name="options[redirect]" type="hidden" value="https://www.chutt.org">
 				  <!-- e.g. "2016-01-02-this-is-a-post" -->
 				  <input name="options[slug]" type="hidden" value="{{ page.slug || home }}">
-				  <label><input name="fields[name]" type="text"> Nom</label>
-				  <label><input name="fields[email]" type="email"> E-mail</label>
-				  <label><textarea name="fields[message]"></textarea> Message</label>
-			  	  <button type="submit">Go!</button>
+				  <p>Votre nom <br/><input name="fields[name]" type="text"> </label> </p>
+				  <p>Votre commentaire <br/> <textarea name="fields[message]"></textarea> </p>
+			  	  <btn class="btn btn-outline">Go!</btn>
 				</form>
 	  </div>
 	 </div>
