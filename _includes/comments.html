@@ -2,14 +2,14 @@
 	<div class="container">
 		<div class="row">
 			{% assign reviews = site.data.comments sort %}
-			 {% for review in reviews %}
-		      {% assign reviewData = review[1] %}
 			 <div class="col-lg-8 col-lg-offset-2">
-				 <i>Publié par {{ reviewData.name }} le {{ reviewData.date | date_to_string }} </i>
+				 {% for review in reviews %}
+				 {% assign reviewData = review[1] %}
+				 <i>Publié par {{ reviewData.name }} le {{ reviewData.date | date_to_string }}</i>
 				 <p style="font-size: 20px;">{{ reviewData.message }}</p>
 				 <br/>
 				 <br/>
-				{% endfor %}
+				 {% endfor %}
 			</div>
 		</div>
 	</div>
@@ -25,9 +25,9 @@
 	 			  <input name="options[redirect]" type="hidden" value="https://www.chutt.org">
 				  <!-- e.g. "2016-01-02-this-is-a-post" -->
 				  <input name="options[slug]" type="hidden" value="{{ page.slug || home }}">
-				  <p>Nom <br/><input name="fields[name]" type="text"></p>
-				  <p>Commentaire <br/> <textarea name="fields[message]"></textarea></p>
-					<p><a class='btn btn-outline' href=""><i class ='fa fa-download'> Poster</i></a></p>
+				  <p><label>Nom <br/><input name="fields[name]" type="text"></label></p>
+				  <p><label>Commentaire <br/> <textarea name="fields[message]"></textarea></label></p>
+					<button class='btn btn-outline' href=""><i class ='fa fa-download'> Poster</i></button>
 				</form>
 				<br/>
 				<br/>
