@@ -1,37 +1,58 @@
+<div class="container">
 
-	<div class="container">
-		<div class="row">
-			{% assign reviews = site.data.comments sort %}
-			 <div class="col-lg-8 col-lg-offset-2">
-				 {% for review in reviews %}
-				 {% assign reviewData = review[1] %}
-				 <i>Publié par {{ reviewData.name }} le {{ reviewData.date | date_to_string }}</i>
-				 <p style="font-size: 20px;">{{ reviewData.message }}</p>
-				 <br/>
-				 <br/>
-				 {% endfor %}
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<p>Faites-nous part de vos idées, donnez votre avis !</p>
-		</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<form method="POST" action="https://staticgeorge.herokuapp.com/v2/entry/chutt/chutt.github.io/master/comments">
-	 			  <input name="options[redirect]" type="hidden" value="https://www.chutt.org/merci/">
-				  <!-- e.g. "2016-01-02-this-is-a-post" -->
-				  <input name="options[slug]" type="hidden" value="{{ page.slug || home }}">
-				  <p><label>Nom <br/><input name="fields[name]" type="text"></label></p>
-				  <p><label>Commentaire <br/> <textarea name="fields[message]"></textarea></label></p>
-					<button class='btn btn-outline' href=""><i class ='fa fa-download'> Poster</i></button>
-				</form>
-				<br/>
-				<br/>
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2>Commentaires</h2>
+      <hr class="star-primary">
+    </div>
+  </div>
 
-	  </div>
-	 </div>
-	</div>
+  <div class="row" style="margin-top: 3em">
+    {% assign reviews = site.data.comments sort %}
+     <div class="col-lg-8 col-lg-offset-2">
+       {% for review in reviews %}
+       {% assign reviewData = review[1] %}
+       <i>Publié par <strong>{{ reviewData.name }}</strong> le {{ reviewData.date | date_to_string }}</i>
+       <p style="font-size: 14px; font-family: monospace; margin-top: 0.4em">{{ reviewData.message }}</p>
+       <hr />
+       {% endfor %}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <p>À vous, faites-nous part de vos idées, donnez votre avis !</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <form method="POST" action="https://staticgeorge.herokuapp.com/v2/entry/chutt/chutt.github.io/master/comments">
+
+        <input name="options[redirect]" type="hidden" value="https://www.chutt.org/merci/">
+        <input name="options[slug]" type="hidden" value="{{ page.slug || home }}">
+
+        <div class="row control-group">
+          <div class="form-group col-xs-12 controls">
+            <label for="comment-name">Nom</label>
+            <input type="text" class="form-control" name="fields[name]" placeholder="Entrez votre nom" id="comment-name" required>
+          </div>
+        </div>
+
+        <div class="row control-group">
+          <div class="form-group col-xs-12 controls">
+            <label for="comment-message">Message</label>
+            <textarea class="form-control" name="fields[message]" placeholder="Partagez-nous vos idées ou remarque !" id="comment-message" required></textarea>
+          </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 6em">
+          <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-success btn-lg">Soumettre</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
