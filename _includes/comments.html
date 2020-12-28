@@ -10,7 +10,7 @@
   <div class="row" style="margin-top: 3em">
     {% assign reviews = site.data.comments | sort "date" %}
      <div class="col-lg-8 col-lg-offset-2">
-       {% for review in reviews %}
+       {% for review in reviews reversed %}
        {% assign reviewData = review[1] %}
        <i>Publié par <strong>{{ reviewData.name }}</strong> le {{ reviewData.date | date_to_string }}</i>
        <p style="font-size: 14px; font-family: monospace; margin-top: 0.4em; text-align: justify;">{{ reviewData.message }}</p>
