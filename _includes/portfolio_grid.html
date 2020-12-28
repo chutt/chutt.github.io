@@ -20,7 +20,7 @@
                    
 
                     <div class="col-lg-8 col-lg-offset-2" style="text-align: justify;">
-                        <p style="font-size: 27px;">{{ post.title }}</p>
+                        <p style="font-size: 20px;">{{ post.title }}</p>
                          <i>Publié le {{ post.date | date_to_string }} dans la rubrique </i>
                         <span class="post-tags">
                         [&nbsp;
@@ -30,22 +30,22 @@
                         {% endfor %}
                         ]
                       </span>
-                        <p>{{ post.description }}</p>
+                        <p style="font-size: 15px; text-align: justify; margin-top:10px">{{ post.description }}</p>
 
                         {% if post.category contains 'pv' %}
-                        <a href="{{ post.doclink }}" class="btn btn-outline">
+                        <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
                         <i class="fa fa-download"></i> Consultez le PV</a>
 
                         {% elsif post.category == 'info' %}
-                        <a href="{{ post.doclink }}" class="btn btn-outline">
+                        <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
                         <i class="fa fa-download"></i>{{ post.button_name }}</a>
 
                         {% elsif post.category == 'statuts' %}
-                        <a href="{{ post.doclink }}" class="btn btn-outline">
-                        <i class="fa fa-download"></i> Consultez les statuts</a>
+                        <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
+                        <i class="fa fa-download"></i> Consultez les statuts</a style="font-size: 15px">
 
                         {% elsif post.category == 'presse' %}
-                        <a href="{{ post.doclink }}" class="btn btn-outline">
+                        <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
                         <i class="fa fa-download"></i> Lire l'article</a>
                         {% endif %} 
 
