@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-12-06T11:53:47+01:00</updated>
-  <id>http://localhost:4000/</id>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <link href="https://www.chutt.org/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://www.chutt.org/" rel="alternate" type="text/html" />
+  <updated>2020-12-30T19:41:35+01:00</updated>
+  <id>https://www.chutt.org/</id>
 
   
     <title type="html">chutt.org</title>
@@ -21,11 +21,11 @@
   
     <entry>
       <title type="html">Lettre de la mairie à la DREAL</title>
-      <link href="http://localhost:4000/info/2020/10/16/lettre-mairie-dreal/" rel="alternate" type="text/html" title="Lettre de la mairie à la DREAL" />
+      <link href="https://www.chutt.org/info/2020/10/16/lettre-mairie-dreal/" rel="alternate" type="text/html" title="Lettre de la mairie à la DREAL" />
       <published>2020-10-16T00:00:00+02:00</published>
       <updated>2020-10-16T00:00:00+02:00</updated>
-      <id>http://localhost:4000/info/2020/10/16/lettre-mairie-dreal</id>
-      <content type="html" xml:base="http://localhost:4000/info/2020/10/16/lettre-mairie-dreal/"></content>
+      <id>https://www.chutt.org/info/2020/10/16/lettre-mairie-dreal</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2020/10/16/lettre-mairie-dreal/"></content>
 
       
       
@@ -57,11 +57,11 @@
   
     <entry>
       <title type="html">Lettre de la mairie à la DIRMED</title>
-      <link href="http://localhost:4000/info/2020/10/16/lettre-mairie-dirmed/" rel="alternate" type="text/html" title="Lettre de la mairie à la DIRMED" />
+      <link href="https://www.chutt.org/info/2020/10/16/lettre-mairie-dirmed/" rel="alternate" type="text/html" title="Lettre de la mairie à la DIRMED" />
       <published>2020-10-16T00:00:00+02:00</published>
       <updated>2020-10-16T00:00:00+02:00</updated>
-      <id>http://localhost:4000/info/2020/10/16/lettre-mairie-dirmed</id>
-      <content type="html" xml:base="http://localhost:4000/info/2020/10/16/lettre-mairie-dirmed/"></content>
+      <id>https://www.chutt.org/info/2020/10/16/lettre-mairie-dirmed</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2020/10/16/lettre-mairie-dirmed/"></content>
 
       
       
@@ -93,11 +93,11 @@
   
     <entry>
       <title type="html">Adhésion à la FNE13 - France Nature Environnement</title>
-      <link href="http://localhost:4000/info/2020/10/01/adhesion-fne/" rel="alternate" type="text/html" title="Adhésion à la FNE13 - France Nature Environnement" />
+      <link href="https://www.chutt.org/info/2020/10/01/adhesion-fne/" rel="alternate" type="text/html" title="Adhésion à la FNE13 - France Nature Environnement" />
       <published>2020-10-01T00:00:00+02:00</published>
       <updated>2020-10-01T00:00:00+02:00</updated>
-      <id>http://localhost:4000/info/2020/10/01/adhesion-fne</id>
-      <content type="html" xml:base="http://localhost:4000/info/2020/10/01/adhesion-fne/"></content>
+      <id>https://www.chutt.org/info/2020/10/01/adhesion-fne</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2020/10/01/adhesion-fne/"></content>
 
       
       
@@ -129,11 +129,11 @@
   
     <entry>
       <title type="html">Compte-rendu de la réunion avec Mr. Molino - Maire de Septèmes</title>
-      <link href="http://localhost:4000/info/2020/09/20/reunion-mairie-septemes/" rel="alternate" type="text/html" title="Compte-rendu de la réunion avec Mr. Molino - Maire de Septèmes" />
+      <link href="https://www.chutt.org/info/2020/09/20/reunion-mairie-septemes/" rel="alternate" type="text/html" title="Compte-rendu de la réunion avec Mr. Molino - Maire de Septèmes" />
       <published>2020-09-20T00:00:00+02:00</published>
       <updated>2020-09-20T00:00:00+02:00</updated>
-      <id>http://localhost:4000/info/2020/09/20/reunion-mairie-septemes</id>
-      <content type="html" xml:base="http://localhost:4000/info/2020/09/20/reunion-mairie-septemes/"></content>
+      <id>https://www.chutt.org/info/2020/09/20/reunion-mairie-septemes</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2020/09/20/reunion-mairie-septemes/"></content>
 
       
       
@@ -165,11 +165,11 @@
   
     <entry>
       <title type="html">Nouveau revêtement - Lettre à la DREAL</title>
-      <link href="http://localhost:4000/info/2020/06/27/lettre-dreal/" rel="alternate" type="text/html" title="Nouveau revêtement - Lettre à la DREAL" />
+      <link href="https://www.chutt.org/info/2020/06/27/lettre-dreal/" rel="alternate" type="text/html" title="Nouveau revêtement - Lettre à la DREAL" />
       <published>2020-06-27T00:00:00+02:00</published>
       <updated>2020-06-27T00:00:00+02:00</updated>
-      <id>http://localhost:4000/info/2020/06/27/lettre-dreal</id>
-      <content type="html" xml:base="http://localhost:4000/info/2020/06/27/lettre-dreal/"></content>
+      <id>https://www.chutt.org/info/2020/06/27/lettre-dreal</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2020/06/27/lettre-dreal/"></content>
 
       
       
@@ -201,11 +201,11 @@
   
     <entry>
       <title type="html">Rencontre avec Mr. Molino, maire de Septèmes</title>
-      <link href="http://localhost:4000/info/2020/03/02/reunion-mairie-septemes/" rel="alternate" type="text/html" title="Rencontre avec Mr. Molino, maire de Septèmes" />
+      <link href="https://www.chutt.org/info/2020/03/02/reunion-mairie-septemes/" rel="alternate" type="text/html" title="Rencontre avec Mr. Molino, maire de Septèmes" />
       <published>2020-03-02T00:00:00+01:00</published>
       <updated>2020-03-02T00:00:00+01:00</updated>
-      <id>http://localhost:4000/info/2020/03/02/reunion-mairie-septemes</id>
-      <content type="html" xml:base="http://localhost:4000/info/2020/03/02/reunion-mairie-septemes/"></content>
+      <id>https://www.chutt.org/info/2020/03/02/reunion-mairie-septemes</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2020/03/02/reunion-mairie-septemes/"></content>
 
       
       
@@ -237,11 +237,11 @@
   
     <entry>
       <title type="html">Assemblée générale du 1er février 2020</title>
-      <link href="http://localhost:4000/pv/2020/03/01/reunion-2/" rel="alternate" type="text/html" title="Assemblée générale du 1er février 2020" />
+      <link href="https://www.chutt.org/pv/2020/03/01/reunion-2/" rel="alternate" type="text/html" title="Assemblée générale du 1er février 2020" />
       <published>2020-03-01T00:00:00+01:00</published>
       <updated>2020-03-01T00:00:00+01:00</updated>
-      <id>http://localhost:4000/pv/2020/03/01/reunion-2</id>
-      <content type="html" xml:base="http://localhost:4000/pv/2020/03/01/reunion-2/"></content>
+      <id>https://www.chutt.org/pv/2020/03/01/reunion-2</id>
+      <content type="html" xml:base="https://www.chutt.org/pv/2020/03/01/reunion-2/"></content>
 
       
       
@@ -273,11 +273,11 @@
   
     <entry>
       <title type="html">Mieux vivre avec l’autoroute - Épisode 1</title>
-      <link href="http://localhost:4000/info/2020/01/24/autoroute-conseils/" rel="alternate" type="text/html" title="Mieux vivre avec l'autoroute - Épisode 1" />
+      <link href="https://www.chutt.org/info/2020/01/24/autoroute-conseils/" rel="alternate" type="text/html" title="Mieux vivre avec l'autoroute - Épisode 1" />
       <published>2020-01-24T00:00:00+01:00</published>
       <updated>2020-01-24T00:00:00+01:00</updated>
-      <id>http://localhost:4000/info/2020/01/24/autoroute-conseils</id>
-      <content type="html" xml:base="http://localhost:4000/info/2020/01/24/autoroute-conseils/"></content>
+      <id>https://www.chutt.org/info/2020/01/24/autoroute-conseils</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2020/01/24/autoroute-conseils/"></content>
 
       
       
@@ -309,11 +309,11 @@
   
     <entry>
       <title type="html">Assemblée générale annuelle du 01/02/2020</title>
-      <link href="http://localhost:4000/info/2020/01/18/ag-2020/" rel="alternate" type="text/html" title="Assemblée générale annuelle du 01/02/2020" />
+      <link href="https://www.chutt.org/info/2020/01/18/ag-2020/" rel="alternate" type="text/html" title="Assemblée générale annuelle du 01/02/2020" />
       <published>2020-01-18T00:00:00+01:00</published>
       <updated>2020-01-18T00:00:00+01:00</updated>
-      <id>http://localhost:4000/info/2020/01/18/ag-2020</id>
-      <content type="html" xml:base="http://localhost:4000/info/2020/01/18/ag-2020/"></content>
+      <id>https://www.chutt.org/info/2020/01/18/ag-2020</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2020/01/18/ag-2020/"></content>
 
       
       
@@ -345,11 +345,11 @@
   
     <entry>
       <title type="html">Retrouvez-nous sur Facebook !</title>
-      <link href="http://localhost:4000/info/2019/11/09/page-facebook/" rel="alternate" type="text/html" title="Retrouvez-nous sur Facebook !" />
+      <link href="https://www.chutt.org/info/2019/11/09/page-facebook/" rel="alternate" type="text/html" title="Retrouvez-nous sur Facebook !" />
       <published>2019-11-09T00:00:00+01:00</published>
       <updated>2019-11-09T00:00:00+01:00</updated>
-      <id>http://localhost:4000/info/2019/11/09/page-facebook</id>
-      <content type="html" xml:base="http://localhost:4000/info/2019/11/09/page-facebook/"></content>
+      <id>https://www.chutt.org/info/2019/11/09/page-facebook</id>
+      <content type="html" xml:base="https://www.chutt.org/info/2019/11/09/page-facebook/"></content>
 
       
       

@@ -9,5 +9,5 @@ tags: association
 tag_url: /association/
 doclink: "/doc/adhesion-fne.pdf"
 meta: "noindex"
-button_name: CR FNE
+button_name: Consulter le compte rendu FNE
 ---

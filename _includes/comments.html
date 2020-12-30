@@ -12,7 +12,7 @@
      <div class="col-lg-8 col-lg-offset-2">
        {% for review in reviews reversed %}
        {% assign reviewData = review[1] %}
-       <i>Publié par <strong>{{ reviewData.name }}</strong> le {{ reviewData.date | date_to_string }}</i>
+       <i>Publié par <strong>{{ reviewData.name }}</strong> le {{ reviewData.date | date: "%d-%m-%Y"  }}</i>
        <p style="font-size: 14px; font-family: monospace; margin-top: 0.4em; text-align: justify;">{{ reviewData.message }}</p>
        <hr />
        {% endfor %}
@@ -48,7 +48,7 @@
 
         <div class="row" style="margin-bottom: 6em">
           <div class="form-group col-xs-12">
-            <button type="submit" class="btn btn-success btn-lg">Soumettre</button>
+            <button type="submit" class="btn btn-success btn-lg" style="text-transform: uppercase;">Soumettre</button>
           </div>
         </div>
       </form>
