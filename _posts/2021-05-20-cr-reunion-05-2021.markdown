@@ -1,0 +1,13 @@
+---
+layout: default
+date: 2021-04-30
+img: 
+category: info
+title: "Réunion du bureau de l'association du 24 avril 2021"
+description: "Le compte-rendu de notre dernière réunion est en ligne - À consulter en suivant le lien ci-dessous."
+tags: association
+tag_url: /association/
+button_name: Consulter le CR
+doclink: "/doc/cr_reunion_bureau_052021.pdf"
+meta: "noindex"
+---
