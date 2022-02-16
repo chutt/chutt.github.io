@@ -5,8 +5,8 @@ img:
 category: message
 title: "Merci !"
 description: "... pour vos très nombreuses participations à la consultation publique contre le bruit."
-tags: lutte-contre-le-bruit
-tag_url: /vivre-avec-autoroute/
+tags: association
+tag_url: /association/
 doclink: 
 meta: "noindex"
 ---
