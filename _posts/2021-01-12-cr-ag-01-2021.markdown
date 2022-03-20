@@ -8,6 +8,6 @@ description: "L’ordre du jour est annoncé : actions 2020, projets 2021: des 
 tags: association
 tag_url: /association/
 button_name: Consulter le CR
-doclink: "/doc/cr_ag_09012021.pdf"
+doclink: "/doc/CR_AG_20210109.pdf"
 meta: "noindex"
 ---
