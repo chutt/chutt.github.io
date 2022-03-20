@@ -3,7 +3,7 @@ layout: default
 date: 2021-01-12
 img: 
 category: info
-title: "Compte-rendu Assemblée Générale du 9 janvier 2020"
+title: "Compte-rendu Assemblée Générale du 9 janvier 2021"
 description: "L’ordre du jour est annoncé : actions 2020, projets 2021: des propositions vous seront faites, n'hésitez pas à venir avec les vôtres, approbation des comptes 2020 et projet de budget 2021, désignation des responsables: président-e, secrétaire, trésorier-e et membres du bureau & questions diverses."
 tags: association
 tag_url: /association/
