@@ -8,6 +8,6 @@ description: "Le compte-rendu de notre dernière réunion est en ligne - À cons
 tags: association
 tag_url: /association/
 button_name: Consulter le CR
-doclink: "/doc/cr_reunion_bureau_052021.pdf"
+doclink: "/doc/cr/2021-04-21_bureau.pdf"
 meta: "noindex"
 ---

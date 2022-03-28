@@ -25,8 +25,8 @@
          </section>
 
 {% if page.url contains "vivre-avec-autoroute" %}
-  {% include video.html %}
-  {% endif %}
+      {% include video.html %}
+      {% endif %}
 
 
 <section class="Portfolio" id="about" style="text-align: justify;">
@@ -45,6 +45,7 @@
                         [&nbsp;
                       <code class="highligher-rouge"><nobr>{{ page.tag }}</nobr></code>&nbsp;
                         ]
+                          ({{site.tags[page.tag]|size}} articles en ligne)
                       </span></p>
                     	    
 
