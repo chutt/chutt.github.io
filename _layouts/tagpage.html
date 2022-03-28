@@ -24,7 +24,6 @@
 
          </section>
 
-
 {% if page.url contains "vivre-avec-autoroute" %}
   {% include video.html %}
   {% endif %}
@@ -32,6 +31,14 @@
 
 <section class="Portfolio" id="about" style="text-align: justify;">
 <div class="container">
+      {% if page.url contains "association" %}
+    <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                         <p style="font-size: 20px;">Tous les comptes-rendus :<span class="post-tags">
+      {% include compte-rendu.html %}
+        {% endif %}
+                    </div>
+    </div>
             <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                       <p style="font-size: 20px;">Nos articles de la rubrique <span class="post-tags">
