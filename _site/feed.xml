@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <link href="https://www.chutt.org/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://www.chutt.org/" rel="alternate" type="text/html" />
-  <updated>2021-01-13T23:07:42+01:00</updated>
-  <id>https://www.chutt.org/</id>
+  <generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2022-03-28T10:49:04+02:00</updated>
+  <id>http://localhost:4000/</id>
 
   
     <title type="html">chutt.org</title>
@@ -20,12 +20,300 @@
   
   
     <entry>
-      <title type="html">Compte-rendu Assemblée Générale du 9 janvier 2020</title>
-      <link href="https://www.chutt.org/info/2021/01/12/cr-ag-01-2021/" rel="alternate" type="text/html" title="Compte-rendu Assemblée Générale du 9 janvier 2020" />
+      <title type="html">Compte-rendu réunion pôle d’échanges multimodal des Pennes Mirabeau du 9 janvier 2021</title>
+      <link href="http://localhost:4000/info/2022/03/07/cr-reunion-pole-multimodale-penne-mirabeau/" rel="alternate" type="text/html" title="Compte-rendu réunion pôle d'échanges multimodal des Pennes Mirabeau du 9 janvier 2021" />
+      <published>2022-03-07T00:00:00+01:00</published>
+      <updated>2022-03-07T00:00:00+01:00</updated>
+      <id>http://localhost:4000/info/2022/03/07/cr-reunion-pole-multimodale-penne-mirabeau</id>
+      <content type="html" xml:base="http://localhost:4000/info/2022/03/07/cr-reunion-pole-multimodale-penne-mirabeau/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Recours gracieux contre l’approbation du plan de mobilité de la Métropole</title>
+      <link href="http://localhost:4000/info/2022/02/15/recours-gracieux-pmb/" rel="alternate" type="text/html" title="Recours gracieux contre l'approbation du plan de mobilité de la Métropole" />
+      <published>2022-02-15T00:00:00+01:00</published>
+      <updated>2022-02-15T00:00:00+01:00</updated>
+      <id>http://localhost:4000/info/2022/02/15/recours-gracieux-pmb</id>
+      <content type="html" xml:base="http://localhost:4000/info/2022/02/15/recours-gracieux-pmb/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Murs Anti Bruit Photovoltaïques</title>
+      <link href="http://localhost:4000/info/2022/02/01/murs-anti-bruit-solaire/" rel="alternate" type="text/html" title="Murs Anti Bruit Photovoltaïques" />
+      <published>2022-02-01T00:00:00+01:00</published>
+      <updated>2022-02-01T00:00:00+01:00</updated>
+      <id>http://localhost:4000/info/2022/02/01/murs-anti-bruit-solaire</id>
+      <content type="html" xml:base="http://localhost:4000/info/2022/02/01/murs-anti-bruit-solaire/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="lutte-contre-le-bruit" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Bientôt des radars sonores ?</title>
+      <link href="http://localhost:4000/info/2022/01/15/experimentation-radars-sonores/" rel="alternate" type="text/html" title="Bientôt des radars sonores ?" />
+      <published>2022-01-15T00:00:00+01:00</published>
+      <updated>2022-01-15T00:00:00+01:00</updated>
+      <id>http://localhost:4000/info/2022/01/15/experimentation-radars-sonores</id>
+      <content type="html" xml:base="http://localhost:4000/info/2022/01/15/experimentation-radars-sonores/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="lutte-contre-le-bruit" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Particiption à l’émission Je pense donc j’agis</title>
+      <link href="http://localhost:4000/info/2021/06/10/radio-je-pense-donc-jagis/" rel="alternate" type="text/html" title="Particiption à l'émission &lt;i&gt;Je pense donc j'agis&lt;/i&gt;" />
+      <published>2021-06-10T00:00:00+02:00</published>
+      <updated>2021-06-10T00:00:00+02:00</updated>
+      <id>http://localhost:4000/info/2021/06/10/radio-je-pense-donc-jagis</id>
+      <content type="html" xml:base="http://localhost:4000/info/2021/06/10/radio-je-pense-donc-jagis/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Opération Tarpin Propre Agissons ensemble pour l’environnement.</title>
+      <link href="http://localhost:4000/message/2021/05/20/operation-tarpin-propre/" rel="alternate" type="text/html" title="Opération Tarpin Propre &lt;i&gt;Agissons ensemble pour l'environnement&lt;/i&gt;." />
+      <published>2021-05-20T00:00:00+02:00</published>
+      <updated>2021-05-20T00:00:00+02:00</updated>
+      <id>http://localhost:4000/message/2021/05/20/operation-tarpin-propre</id>
+      <content type="html" xml:base="http://localhost:4000/message/2021/05/20/operation-tarpin-propre/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="message" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Plan de déplacements urbains : participez à l’enquête publique</title>
+      <link href="http://localhost:4000/info/2021/05/05/enquete-publique-pud/" rel="alternate" type="text/html" title="Plan de déplacements urbains : participez à l'enquête publique" />
+      <published>2021-05-05T00:00:00+02:00</published>
+      <updated>2021-05-05T00:00:00+02:00</updated>
+      <id>http://localhost:4000/info/2021/05/05/enquete-publique-pud</id>
+      <content type="html" xml:base="http://localhost:4000/info/2021/05/05/enquete-publique-pud/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Réunion du bureau de l’association du 24 avril 2021</title>
+      <link href="http://localhost:4000/info/2021/04/30/cr-reunion-05-2021/" rel="alternate" type="text/html" title="Réunion du bureau de l'association du 24 avril 2021" />
+      <published>2021-04-30T00:00:00+02:00</published>
+      <updated>2021-04-30T00:00:00+02:00</updated>
+      <id>http://localhost:4000/info/2021/04/30/cr-reunion-05-2021</id>
+      <content type="html" xml:base="http://localhost:4000/info/2021/04/30/cr-reunion-05-2021/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="info" />
+      
+
+      
+        <category term="association" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Compte-rendu Assemblée Générale du 9 janvier 2021</title>
+      <link href="http://localhost:4000/info/2021/01/12/cr-ag-01-2021/" rel="alternate" type="text/html" title="Compte-rendu Assemblée Générale du 9 janvier 2021" />
       <published>2021-01-12T00:00:00+01:00</published>
       <updated>2021-01-12T00:00:00+01:00</updated>
-      <id>https://www.chutt.org/info/2021/01/12/cr-ag-01-2021</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2021/01/12/cr-ag-01-2021/"></content>
+      <id>http://localhost:4000/info/2021/01/12/cr-ag-01-2021</id>
+      <content type="html" xml:base="http://localhost:4000/info/2021/01/12/cr-ag-01-2021/"></content>
 
       
       
@@ -57,299 +345,11 @@
   
     <entry>
       <title type="html">Lettre de la mairie à la DREAL</title>
-      <link href="https://www.chutt.org/info/2020/10/16/lettre-mairie-dreal/" rel="alternate" type="text/html" title="Lettre de la mairie à la DREAL" />
+      <link href="http://localhost:4000/info/2020/10/16/lettre-mairie-dreal/" rel="alternate" type="text/html" title="Lettre de la mairie à la DREAL" />
       <published>2020-10-16T00:00:00+02:00</published>
       <updated>2020-10-16T00:00:00+02:00</updated>
-      <id>https://www.chutt.org/info/2020/10/16/lettre-mairie-dreal</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2020/10/16/lettre-mairie-dreal/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="info" />
-      
-
-      
-        <category term="lutte-contre-le-bruit" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Lettre de la mairie à la DIRMED</title>
-      <link href="https://www.chutt.org/info/2020/10/16/lettre-mairie-dirmed/" rel="alternate" type="text/html" title="Lettre de la mairie à la DIRMED" />
-      <published>2020-10-16T00:00:00+02:00</published>
-      <updated>2020-10-16T00:00:00+02:00</updated>
-      <id>https://www.chutt.org/info/2020/10/16/lettre-mairie-dirmed</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2020/10/16/lettre-mairie-dirmed/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="info" />
-      
-
-      
-        <category term="lutte-contre-le-bruit" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Adhésion à la FNE13 - France Nature Environnement</title>
-      <link href="https://www.chutt.org/info/2020/10/01/adhesion-fne/" rel="alternate" type="text/html" title="Adhésion à la FNE13 - France Nature Environnement" />
-      <published>2020-10-01T00:00:00+02:00</published>
-      <updated>2020-10-01T00:00:00+02:00</updated>
-      <id>https://www.chutt.org/info/2020/10/01/adhesion-fne</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2020/10/01/adhesion-fne/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="info" />
-      
-
-      
-        <category term="association" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Compte-rendu de la réunion avec Mr. Molino - Maire de Septèmes</title>
-      <link href="https://www.chutt.org/info/2020/09/20/reunion-mairie-septemes/" rel="alternate" type="text/html" title="Compte-rendu de la réunion avec Mr. Molino - Maire de Septèmes" />
-      <published>2020-09-20T00:00:00+02:00</published>
-      <updated>2020-09-20T00:00:00+02:00</updated>
-      <id>https://www.chutt.org/info/2020/09/20/reunion-mairie-septemes</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2020/09/20/reunion-mairie-septemes/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="info" />
-      
-
-      
-        <category term="association" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Nouveau revêtement - Lettre à la DREAL</title>
-      <link href="https://www.chutt.org/info/2020/06/27/lettre-dreal/" rel="alternate" type="text/html" title="Nouveau revêtement - Lettre à la DREAL" />
-      <published>2020-06-27T00:00:00+02:00</published>
-      <updated>2020-06-27T00:00:00+02:00</updated>
-      <id>https://www.chutt.org/info/2020/06/27/lettre-dreal</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2020/06/27/lettre-dreal/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="info" />
-      
-
-      
-        <category term="association" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Rencontre avec Mr. Molino, maire de Septèmes</title>
-      <link href="https://www.chutt.org/info/2020/03/02/reunion-mairie-septemes/" rel="alternate" type="text/html" title="Rencontre avec Mr. Molino, maire de Septèmes" />
-      <published>2020-03-02T00:00:00+01:00</published>
-      <updated>2020-03-02T00:00:00+01:00</updated>
-      <id>https://www.chutt.org/info/2020/03/02/reunion-mairie-septemes</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2020/03/02/reunion-mairie-septemes/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="info" />
-      
-
-      
-        <category term="association" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Assemblée générale du 1er février 2020</title>
-      <link href="https://www.chutt.org/pv/2020/03/01/reunion-2/" rel="alternate" type="text/html" title="Assemblée générale du 1er février 2020" />
-      <published>2020-03-01T00:00:00+01:00</published>
-      <updated>2020-03-01T00:00:00+01:00</updated>
-      <id>https://www.chutt.org/pv/2020/03/01/reunion-2</id>
-      <content type="html" xml:base="https://www.chutt.org/pv/2020/03/01/reunion-2/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="pv" />
-      
-
-      
-        <category term="association" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Mieux vivre avec l’autoroute - Épisode 1</title>
-      <link href="https://www.chutt.org/info/2020/01/24/autoroute-conseils/" rel="alternate" type="text/html" title="Mieux vivre avec l'autoroute - Épisode 1" />
-      <published>2020-01-24T00:00:00+01:00</published>
-      <updated>2020-01-24T00:00:00+01:00</updated>
-      <id>https://www.chutt.org/info/2020/01/24/autoroute-conseils</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2020/01/24/autoroute-conseils/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="info" />
-      
-
-      
-        <category term="lutte-contre-le-bruit" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Assemblée générale annuelle du 01/02/2020</title>
-      <link href="https://www.chutt.org/info/2020/01/18/ag-2020/" rel="alternate" type="text/html" title="Assemblée générale annuelle du 01/02/2020" />
-      <published>2020-01-18T00:00:00+01:00</published>
-      <updated>2020-01-18T00:00:00+01:00</updated>
-      <id>https://www.chutt.org/info/2020/01/18/ag-2020</id>
-      <content type="html" xml:base="https://www.chutt.org/info/2020/01/18/ag-2020/"></content>
+      <id>http://localhost:4000/info/2020/10/16/lettre-mairie-dreal</id>
+      <content type="html" xml:base="http://localhost:4000/info/2020/10/16/lettre-mairie-dreal/"></content>
 
       
       

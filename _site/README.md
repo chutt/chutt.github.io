@@ -1,1 +1,1 @@
-chutt.github.io
+www.chutt.org
