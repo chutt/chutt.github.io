@@ -33,8 +33,8 @@
 <div class="container">
       {% if page.url contains "association" %}
      <div class="row">
-         <div class="col-lg-8 col-lg-offset-2">
-             <h3> Status ({{site.static_files | where: "statuts", true|size}})</h3>
+         <div class="col-lg-8 col-lg-offset-2" id="statuts">
+             <h3 > Status ({{site.static_files | where: "statuts", true|size}})</h3>
              {% assign my_status = site.static_files | where: "statuts", true %}
              {% for file in my_status reversed  %}
                 <p><a href="{{ file.path }}">{{ file.name }}</a></p>
@@ -45,8 +45,8 @@
     <br>
 
     <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h3> Comptes rendus ({{site.static_files | where: "cr", true|size}})</h3>
+                    <div class="col-lg-8 col-lg-offset-2" id="cr">
+                        <h3 > Comptes rendus ({{site.static_files | where: "cr", true|size}})</h3>
       {% include compte-rendu.html %}
         {% endif %}
                     </div>
