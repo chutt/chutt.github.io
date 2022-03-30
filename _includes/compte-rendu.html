@@ -1,7 +1,6 @@
-{% assign my_project = site.static_files %}
+{% assign my_project = site.static_files | where: "cr", true %}
 {% for file in my_project reversed  %}
-  {% if file.path contains "cr/" %}
 
-<p><li><a href="{{ file.path }}">{{ file.name }}</a></li></p>
-{% endif %}
+<p><a href="{{ file.path }}">{{ file.name }}</a></p>
+
 {% endfor %}
