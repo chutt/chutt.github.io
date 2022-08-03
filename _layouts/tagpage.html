@@ -34,7 +34,7 @@
       {% if page.url contains "association" %}
      <div class="row">
          <div class="col-lg-8 col-lg-offset-2" id="statuts">
-             <h3 > Status ({{site.static_files | where: "statuts", true|size}})</h3>
+             <h3 > Statuts ({{site.static_files | where: "statuts", true|size}})</h3>
              {% assign my_status = site.static_files | where: "statuts", true %}
              {% for file in my_status reversed  %}
                 <p><a href="{{ file.path }}">{{ file.name }}</a></p>
