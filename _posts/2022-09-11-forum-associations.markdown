@@ -9,6 +9,6 @@ lecture !"
 tags: association
 tag_url: /association/
 button_name: Lire le compte-rendu
-doclink: "doc/forum_associations_2022.pdf"
+doclink: "/doc/forum_associations_2022.pdf"
 meta: "noindex"
 ---
