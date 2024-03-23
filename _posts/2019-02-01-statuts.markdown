@@ -7,6 +7,6 @@ title: "Nouveaux statuts"
 description: "Les statuts de l'association viennent d'être rédigés pour validation. Consultez les statuts ci-dessous."
 tags: association
 tag_url: /association/
-doclink: "/doc/statuts.pdf"
+doclink: "/doc/statuts/2019-01-19_statuts.pdf"
 meta: "noindex"
 ---

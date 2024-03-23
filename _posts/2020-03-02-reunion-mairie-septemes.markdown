@@ -8,6 +8,6 @@ description: "Le 20 janvier dernier, nous avons rencontré Mr. Molino à la mair
 tags: association
 button_name: CR réunion
 tag_url: /association/
-doclink: "/doc/cr_reunion_mairie_15012020.pdf"
+doclink: "/doc/cr/2020-01-15_reunion_mairie.pdf"
 meta: "noindex"
 ---
