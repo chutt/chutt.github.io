@@ -8,6 +8,6 @@ description: "C'est fait, nous sommes adhérents ! À plusieurs, on est plus int
 tags: association
 tag_url: /association/
 doclink: "/doc/adhesion-fne.pdf"
-meta: "noindex"
+
 button_name: Consulter le compte rendu FNE
 ---

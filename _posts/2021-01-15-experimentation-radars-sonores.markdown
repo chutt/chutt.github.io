@@ -10,5 +10,5 @@ tags: lutte-contre-le-bruit
 tag_url: /vivre-avec-autoroute/
 button_name: Lire la suite
 doclink: '/doc/experimentation_radars_sonores.pdf'
-meta: "noindex"
+
 ---

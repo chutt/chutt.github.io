@@ -8,5 +8,5 @@ description: "Une fois de plus, le feu part de l'autoroute. A Septèmes les Vall
 Nous préconisons des murs anti-bruit pour les autoroutes urbaines, en premier, pour le bruit, bien évidemment. Mais, accessoirement, ces murs feraient d'excellents pare-feu. Un mur anti-bruit a été programmé à Septèmes en 2012 ! Et encore, il ne répondra qu'à une partie des besoins. <br> L'Etat attend il un drame pour agir ?"
 tags: association
 tag_url: /association/
-meta: "noindex"
+
 ---

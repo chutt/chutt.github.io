@@ -10,5 +10,5 @@ tags: association
 tag_url: /association/
 button_name: Consulter le CR
 doclink: "/doc/cr/2022-03-07_reunion-pole-echanges-multimodal-pennes-mirabeau.pdf"
-meta: "noindex"
+
 ---

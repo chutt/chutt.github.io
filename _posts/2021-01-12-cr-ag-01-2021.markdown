@@ -9,5 +9,5 @@ tags: association
 tag_url: /association/
 button_name: Consulter le CR
 doclink: "/doc/cr/2021-01-09_ag.pdf"
-meta: "noindex"
+
 ---

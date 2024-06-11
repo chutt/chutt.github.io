@@ -8,5 +8,5 @@ description: "C'est fait! Notre association est officiellement été créée. Vo
 tags: association
 tag_url: /association/
 doclink: 'https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:201900310114'
-meta: "noindex"
+
 ---

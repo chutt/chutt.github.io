@@ -9,5 +9,5 @@ tags: association
 tag_url: /association/
 button_name: Je participe
 doclink: 'https://www.registre-numerique.fr/plan-deplacements-urbains-metropole-amp/deposer-son-observation'
-meta: "noindex"
+
 ---

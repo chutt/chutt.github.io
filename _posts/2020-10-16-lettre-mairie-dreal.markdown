@@ -9,5 +9,5 @@ tags: association
 tag_url: /association/
 button_name:  Consulter le courrier à la DREAL
 doclink: "/doc/courrier-mairie-dreal.pdf"
-meta: "noindex"
+
 ---

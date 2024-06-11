@@ -10,5 +10,5 @@ tags: association
 tag_url: /association/
 button_name: Lire la suite
 doclink: '/doc/recours_gracieux_pmb_2022.pdf'
-meta: "noindex"
+
 ---

@@ -9,5 +9,5 @@ tags: association
 button_name: CR réunion
 tag_url: /association/
 doclink: "/doc/cr/2020-01-15_reunion_mairie.pdf"
-meta: "noindex"
+
 ---

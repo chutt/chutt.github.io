@@ -8,5 +8,5 @@ description: "Les statuts de l'association viennent d'être rédigés pour valid
 tags: association
 tag_url: /association/
 doclink: "/doc/statuts/2019-01-19_statuts.pdf"
-meta: "noindex"
+
 ---

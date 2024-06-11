@@ -9,5 +9,5 @@ tags: association
 tag_url: /association/
 button_name: Compte-rendu du conseil municipal
 doclink: "https://ville-septemes.fr/wp-content/uploads/2022/06/COMPTE-RENDU-EXTERNE-du-02.06.2022.pdf"
-meta: "noindex"
+
 ---

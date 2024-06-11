@@ -12,5 +12,5 @@ tags: association
 tag_url: /association/
 button_name: Écoutez l'émission en replay
 doclink: "/audio/au_coeur_de_lactu.mp3"
-meta: "noindex"
+
 ---

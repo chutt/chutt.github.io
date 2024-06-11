@@ -8,5 +8,5 @@ description: "Merci pour votre participation à notre dernière AG. Vous trouver
 tags: association
 tag_url: /association/
 doclink: "/doc/cr/2020-02-01_ag.pdf"
-meta: "noindex"
+
 ---

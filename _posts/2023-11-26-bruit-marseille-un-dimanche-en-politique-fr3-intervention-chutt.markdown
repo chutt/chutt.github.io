@@ -10,5 +10,5 @@ tags: association
 tag_url: /association/
 button_name: Revoir l'émission en replay
 doclink: "https://youtu.be/itTqPlX7Ci0"
-meta: "noindex"
+
 ---

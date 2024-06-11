@@ -8,5 +8,5 @@ description: "Des travaux ont eu lieu en mai 2020 pour renouveler le revêtement
 tags: association
 button_name: Consulter le courrier à la DREAL
 doclink: "/doc/lettre_dreal_16052020.pdf"
-meta: "noindex"
+
 ---

@@ -14,5 +14,5 @@ tags: lutte-contre-le-bruit
 tag_url: /vivre-avec-autoroute/
 button_name: Lire la suite
 doclink: '/doc/murs_anti_bruit_solaire.pdf'
-meta: "noindex"
+
 ---

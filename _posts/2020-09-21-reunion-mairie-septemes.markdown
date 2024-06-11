@@ -9,5 +9,5 @@ tags: association
 tag_url: /association/
 button_name: CR réunion
 doclink: "/doc/cr/2020-09-21_reunion_molino.pdf"
-meta: "noindex"
+
 ---

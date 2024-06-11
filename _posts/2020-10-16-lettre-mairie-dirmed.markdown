@@ -9,5 +9,5 @@ tags: association
 tag_url: /association/
 button_name:  Consulter le courrier DIRMED
 doclink: "/doc/courrier-mairie-dirmed.pdf"
-meta: "noindex"
+
 ---

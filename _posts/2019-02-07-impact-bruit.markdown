@@ -8,5 +8,5 @@ description: "Cette étude réalisée par l'organisme <i>Bruitparis</i> démontr
 tags: lutte-contre-le-bruit
 tag_url: /vivre-avec-autoroute/
 doclink: "/doc/presse/etude-impact-bruit.pdf"
-meta: "noindex"
+
 ---

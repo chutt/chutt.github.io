@@ -10,5 +10,5 @@ tags: association
 tag_url: /association/
 button_name: Signer la pétition en ligne
 doclink: "https://www.change.org/p/non-a-la-suppression-des-cartes-zou-50-75-et-avantage"
-meta: "noindex"
+
 ---

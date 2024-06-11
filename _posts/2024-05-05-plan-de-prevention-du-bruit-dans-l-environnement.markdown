@@ -11,5 +11,5 @@ tags: lutte-contre-le-bruit
 tag_url: /vivre-avec-autoroute/
 button_name: Consulter le PPBE
 doclink: "/doc/projet_ppbe4.pdf"
-meta: "noindex"
+
 ---
