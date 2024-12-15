@@ -2,5 +2,6 @@
 layout: blog
 permalink: /blog/
 meta: "noindex"
-title: "Blog de l'association septèmoise pour la réduction des nuisances de l'autoroute A51"
+title: "Actualités de notre association"
+description: "Retrouvez les actualités de notre association."
 ---

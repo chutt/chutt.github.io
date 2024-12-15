@@ -1,6 +1,7 @@
 ---
 layout: adhesion
 permalink: /adhesion/
-meta: "noindex"
-title: "Comment adhérer à ASRNA par chèque ou virement bancaire "
+title: "Adhérer à notre association"
+description: "Les modalités d'adhésion à notre association."
+tag: adhesion
 ---
