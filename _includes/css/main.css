@@ -554,7 +554,7 @@ border-color: #{{ site.color.secondary }};
         float: none;
         width: auto;
         margin-top: 0;
-        background-color: #fff;
+        background-color: #333;
         border: 1px solid #e7e7e7;
         box-shadow: none;
     }
