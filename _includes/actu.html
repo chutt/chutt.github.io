@@ -1,18 +1,24 @@
 
-    <!-- Blog Section -->
-    <header>
-    <section class="success" id="about">
+    <!-- Actu Section -->
+
+    <section class="success" style="height:px;" id="">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="/img/logo.png" alt="" width="325px">
+                <div class="col-lg-12 text-center">
+                    <br>
+                    <p><img src="/img/logo.png" alt="" width="175px"></p>
                     <hr class="star-light">
-                    <h2>Blog de l'association</h2>
+                    {% if page.url contains "vivre-avec-autoroute" %}
+                    <h1 class="">{{ page.headline }}</h1>
+                    {% else %}
+                    <h1 class="">{{ page.title }}</h1>
+                    {% endif%}
                 </div>
             </div>
         </div>
+
     </section>
-   </header>
+
 
     <section class="Portfolio" id="about">
    

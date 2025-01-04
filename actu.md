@@ -1,7 +1,7 @@
 ---
-layout: blog
-permalink: /blog/
+layout: actu
+permalink: /actu/
 meta: "noindex"
-title: "Actualités de notre association"
+title: "Actualités"
 description: "Retrouvez les actualités de notre association."
 ---
