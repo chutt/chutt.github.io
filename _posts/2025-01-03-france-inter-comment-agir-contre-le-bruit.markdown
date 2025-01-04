@@ -7,7 +7,7 @@ title: "Participation à l'émission <i>Une semaine en France</i> sur France Int
 description: "Intervention dans l'émission  <i>Une semaine en France</i> sur France Inter sur la question du bruit et des nuisances sonores."
 tags: presse
 tag_url: /presse/
-button_name: Ré-écouter l'émission
+button_name: Réécouter l'émission
 doclink: "https://www.radiofrance.fr/franceinter/podcasts/une-semaine-en-france/le-18-20-une-semaine-en-france-du-vendredi-03-janvier-2025-9143791"
 
 ---
