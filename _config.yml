@@ -33,14 +33,13 @@ color:
 footer:
   copyright:
   statuts: Statuts de l'association
-  social: 'Suivez-nous sur:'
+  social: 'Suivez-nous sur les réseaux :'
   credits: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: https://www.facebook.com/StopAuBruitA51/
-
+  - title: bluesky
+    url: https://bsky.app/profile/chuttpg.bsky.social
 
 # Statuts
 statuts:
