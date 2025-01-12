@@ -28,6 +28,18 @@
       {% include video.html %}
       {% endif %}
 
+{% if page.url contains "bruit" %}
+{% include bruit.html %}
+{% endif %}
+
+{% if page.url contains "air" %}
+{% include air.html %}
+{% endif %}
+
+{% if page.url contains "végétalisation" %}
+{% include pollution-visuelle.html %}
+{% endif %}
+
 
 <section class="Portfolio" id="about" style="text-align: justify;">
 <div class="container">

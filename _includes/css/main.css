@@ -574,3 +574,12 @@ border-color: #{{ site.color.secondary }};
         background-color: #f8f8f8;
     }
 }
+
+.padding-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-justify {
+    text-align: center;
+}
