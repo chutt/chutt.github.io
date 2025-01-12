@@ -26,45 +26,18 @@
 
 {% if page.url contains "vivre-avec-autoroute" %}
       {% include video.html %}
-      {% endif %}
-
-{% if page.url contains "bruit" %}
-{% include bruit.html %}
-{% endif %}
-
-{% if page.url contains "air" %}
-{% include air.html %}
-{% endif %}
-
-{% if page.url contains "végétalisation" %}
-{% include pollution-visuelle.html %}
-{% endif %}
+    {% else if page.url contains "bruit" %}
+    {% include bruit.html %}
+    {% else if page.url contains "air" %}
+    {% include air.html %}
+    {% else if page.url contains "végétalisation" %}
+    {% include pollution-visuelle.html %}
+    {% else if page.url contains "association" %}
+    {% include association.html %}
+    {% endif %}
 
 
-<section class="Portfolio" id="about" style="text-align: justify;">
 <div class="container">
-      {% if page.url contains "association" %}
-     <div class="row">
-         <div class="col-lg-8 col-lg-offset-2" id="statuts">
-             <h3 > Statuts ({{site.static_files | where: "statuts", true|size}})</h3>
-             {% assign my_status = site.static_files | where: "statuts", true %}
-             {% for file in my_status reversed  %}
-                <p><a href="{{ file.path }}">{{ file.name }}</a></p>
-                {% endfor %}
-         </div>
-        </div>
-    <br>
-    <br>
-
-    <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2" id="cr">
-                        <h3 > Comptes rendus ({{site.static_files | where: "cr", true|size}})</h3>
-      {% include compte-rendu.html %}
-        {% endif %}
-                    </div>
-    </div>
-    <br>
-    <br>
             <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                       <h3>Nos articles de la rubrique <span class="post-tags">
@@ -86,19 +59,9 @@
   	<!-- Tags: {{ post.tags | join: ", " }} -->
   </p>
 {% endfor %}
+                    </div>
 
-
-</section>
-
-{% if site.contact == "static" %}
-
-
-    {% include contact_static.html %}
-    {% elsif site.contact == "disqus" %}
-    {% include contact_disqus.html %}
-    {% else %}
     {% include contact.html %}
-    {% endif %}
     {% include footer.html %}
     {% include js.html %}
     </body>
