@@ -1,0 +1,27 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Nos articles de la rubrique <span class="post-tags">
+                            [&nbsp;
+                          <code class="highligher-rouge"><nobr>{{ page.tag }}</nobr></code>&nbsp;
+                            ]
+                              ({{site.tags[page.tag]|size}})
+                          </span></h3>
+
+
+                {% for post in site.tags[page.tag] %}
+                {% if post.lang %}
+                <p> lang="{{post.lang}}"></p>
+                {% else %}
+                <p>
+                    {% endif %}
+                    <a href="{{ post.doclink }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+                    {{ post.description }}
+                    <!-- Tags: {{ post.tags | join: ", " }} -->
+                </p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

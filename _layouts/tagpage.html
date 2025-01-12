@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
- {% include head.html %}
+    {% include head.html %}
     <body id="page-top" class="index">
-      {% include nav.html %}
-    
+    {% include nav.html %}
 
-
-<section class="success" style="height:px;" id="">
+<section class="success">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -21,46 +19,20 @@
                 </div>
             </div>
         </div>
-
-         </section>
+</section>
 
 {% if page.url contains "vivre-avec-autoroute" %}
       {% include video.html %}
-    {% else if page.url contains "bruit" %}
+    {% elsif page.url contains "bruit" %}
     {% include bruit.html %}
-    {% else if page.url contains "air" %}
+    {% elsif page.url contains "air" %}
     {% include air.html %}
-    {% else if page.url contains "végétalisation" %}
-    {% include pollution-visuelle.html %}
-    {% else if page.url contains "association" %}
+    {% elsif page.url contains "végétalisation" %}
+    {% include vegetalisation.html %}
+    {% elsif page.url contains "association" %}
     {% include association.html %}
     {% endif %}
-
-
-<div class="container">
-            <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                      <h3>Nos articles de la rubrique <span class="post-tags">
-                        [&nbsp;
-                      <code class="highligher-rouge"><nobr>{{ page.tag }}</nobr></code>&nbsp;
-                        ]
-                          ({{site.tags[page.tag]|size}})
-                      </span></h3>
-                    	    
-
-{% for post in site.tags[page.tag] %}
-  {% if post.lang %}
-  <p> lang="{{post.lang}}"></p>
-  {% else %}
-  <p>
-  {% endif %}
-  	<a href="{{ post.doclink }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
-  	<!-- Tags: {{ post.tags | join: ", " }} -->
-  </p>
-{% endfor %}
-                    </div>
-
+    {% include tag-posts.html %}
     {% include contact.html %}
     {% include footer.html %}
     {% include js.html %}
