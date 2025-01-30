@@ -1,0 +1,13 @@
+---
+layout: default
+date: 2025-01-25
+img: 
+category: info
+title: "Journal de 13h de TF1 - Nuisances sonores - Septèmes-les-Vallons" 
+description: ""
+tags: "presse"
+tag_url: "/presse/"
+button_name: Revoir en replay
+doclink: "https://youtu.be/M8yqxqZq9e8"
+
+---
