@@ -1,0 +1,12 @@
+---
+layout: default
+date: 2025-02-18
+img: 
+category: info
+title: "Quelques réflexions sur le Plan de Prévention du Bruit et de l'Environnement (PPBE4) de la métropole Aix-Marseille" 
+description: 
+tags: ["reduction-bruit"]
+tag_url: "/bruit/"
+button_name: Lire le document
+doclink: "/doc/réflexion_PPBE_2024_2029.pdf"
+---
