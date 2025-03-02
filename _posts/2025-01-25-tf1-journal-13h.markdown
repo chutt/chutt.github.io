@@ -4,10 +4,10 @@ date: 2025-01-25
 img: 
 category: info
 title: "Journal de 13h de TF1 - Nuisances sonores - Septèmes-les-Vallons" 
-description: ""
+description: "Pour visionner cette vidéo, veuillez désactiver votre bloqueur de publicité."
 tags: "presse"
 tag_url: "/presse/"
 button_name: Revoir en replay
-doclink: "https://youtu.be/M8yqxqZq9e8"
+doclink: "https://www.tf1info.fr/sante/videos/video-nuisances-trop-de-bruit-dans-notre-quotidien-4963-2346296.html"
 
 ---
