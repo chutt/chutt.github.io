@@ -19,6 +19,14 @@
                     {{ post.description }}
                     <!-- Tags: {{ post.tags | join: ", " }} -->
                 </p>
+                {% if post.category == 'image' %}
+                {% for image in post.img %}
+                <div style="text-align: center; margin-bottom: 10px;">
+                    <img src="/img/{{ image.name }}" class="img-responsive img-rounded">
+                </div>
+
+                {% endfor %}
+                {% endif %}
                 <br/>
                 <hr/>
                 {% endfor %}

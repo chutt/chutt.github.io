@@ -492,3 +492,115 @@ footer .footer-below {
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 /* ============ desktop view .end// ============ */
+
+.navbar-default .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-centered {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-centered .nav-item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar-default {
+    background-color: #2c3e50;
+border-color: #2c3e50;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ddd;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-default .navbar-nav .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .dropdown-menu > li > a:focus {
+    color: #555;
+    background-color: #f8f8f8;
+}
+
+@media (max-width: 767px) {
+    .navbar-centered {
+        flex-direction: column;
+    }
+
+    .navbar-centered .nav-item {
+        margin: 10px 0;
+    }
+}
+
+/* Ensure dropdown menu is displayed on mobile */
+@media (max-width: 767px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: #333;
+        border: 1px solid #e7e7e7;
+        box-shadow: none;
+    }
+
+    .navbar .nav-item.open .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu > li > a {
+        color: #333;
+        padding: 10px 20px;
+    }
+
+    .navbar .nav-item .dropdown-menu > li > a:hover,
+    .navbar .nav-item .dropdown-menu > li > a:focus {
+        color: #555;
+        background-color: #f8f8f8;
+    }
+}
+
+.padding-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-justify {
+    text-align: center;
+}
+
+/* CSS */
+h2 {
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.5em;
+        line-height: 1.3;
+        word-break: break-word;
+    }
+}

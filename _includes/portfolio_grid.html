@@ -47,8 +47,16 @@
                         {% elsif post.category == 'presse' %}
                         <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
                         <i class="fa fa-download"></i> Lire l'article</a>
-                        {% endif %}
 
+                        {% elsif post.category == 'image' %}
+                                {% for image in post.img %}
+                                    <div style="text-align: center; margin-bottom: 10px;">
+                                    <img src="/img/{{ image.name }}" class="img-responsive img-rounded">
+                                    </div>
+
+                            {% endfor %}
+
+                        {% endif %}
                         <br/>
                         <hr/>
                     </div>
