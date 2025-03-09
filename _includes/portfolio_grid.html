@@ -12,12 +12,12 @@
          </section>
 
     <section class="Portfolio" id="about">
-   
+
             {% for post in site.posts limit:3 %}
             <div class="container">
             <div class="row">
-                
-                   
+
+
 
                     <div class="col-lg-8 col-lg-offset-2" style="text-align: justify;">
                         <p style="font-size: 25px;">{{ post.title }}</p>
@@ -47,12 +47,12 @@
                         {% elsif post.category == 'presse' %}
                         <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
                         <i class="fa fa-download"></i> Lire l'article</a>
-                        {% endif %} 
+                        {% endif %}
 
                         <br/>
-                        <hr/>    
-                    </div>    
-            {% endfor %}    
+                        <hr/>
+                    </div>
+            {% endfor %}
 
             </div>
             <div class="row" style="margin-bottom: 6em">

@@ -1,8 +1,7 @@
-<section>
-    <div class="container">
+ <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <h3>Articles de la rubrique <span class="post-tags">
+            <div class="col-lg-8 col-lg-offset-2" style="text-align: justify;">
+                <h3 style="margin-bottom: 30px">Articles de la rubrique <span class="post-tags">
                             [&nbsp;
                           <code class="highligher-rouge"><nobr>{{ page.tag }}</nobr></code>&nbsp;
                             ]
@@ -20,8 +19,9 @@
                     {{ post.description }}
                     <!-- Tags: {{ post.tags | join: ", " }} -->
                 </p>
+                <br/>
+                <hr/>
                 {% endfor %}
             </div>
         </div>
     </div>
-</section>
