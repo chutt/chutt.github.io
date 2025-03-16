@@ -43,7 +43,7 @@ social:
 
 # Statuts
 statuts:
-  url: doc/statuts/2019-01-19_statuts.pdf
+  url: /doc/statuts/2019-01-19_statuts.pdf
 
 # Credits content
 credits: 'Partenaire de France Nature Environnement - Bouches-du-Rhône'
@@ -61,3 +61,6 @@ defaults:
       path: doc/statuts
     values:
       statuts: true
+
+plugins:
+  - jekyll-redirect-from
