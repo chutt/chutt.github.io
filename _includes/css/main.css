@@ -4,6 +4,24 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.navbar {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-item,
+.navbar .navbar-brand,
+.navbar li {
+    margin: 10px;
+}
+
+.navbar span {
+    margin: 5px;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -122,53 +140,6 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
-}
-
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
-.navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-
-.navbar a:focus {
-    outline: 0;
-}
-
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border: 0;
 }
 
 section {
@@ -445,9 +416,6 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
-}
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
@@ -475,104 +443,6 @@ footer .footer-below {
     width: 100%;
     height: 100%;
     border: 0;
-}
-
-/* ============ desktop view ============ */
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}
-/* ============ desktop view .end// ============ */
-
-.navbar-default .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-centered {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-}
-
-.navbar-centered .nav-item {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-.navbar-default {
-    background-color: #{{ site.color.secondary }};
-border-color: #{{ site.color.secondary }};
-}
-
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-    color: #fff;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #ddd;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-nav .dropdown-menu {
-    background-color: #fff;
-    border: 1px solid #e7e7e7;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-default .navbar-nav .dropdown-menu > li > a {
-    color: #333;
-    padding: 10px 20px;
-}
-
-.navbar-default .navbar-nav .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav .dropdown-menu > li > a:focus {
-    color: #555;
-    background-color: #f8f8f8;
-}
-
-@media (max-width: 767px) {
-    .navbar-centered {
-        flex-direction: column;
-    }
-
-    .navbar-centered .nav-item {
-        margin: 10px 0;
-    }
-}
-
-/* Ensure dropdown menu is displayed on mobile */
-@media (max-width: 767px) {
-    .navbar .nav-item .dropdown-menu {
-        display: none;
-        position: static;
-        float: none;
-        width: auto;
-        margin-top: 0;
-        background-color: #333;
-        border: 1px solid #e7e7e7;
-        box-shadow: none;
-    }
-
-    .navbar .nav-item.open .dropdown-menu {
-        display: block;
-    }
-
-    .navbar .nav-item .dropdown-menu > li > a {
-        color: #333;
-        padding: 10px 20px;
-    }
-
-    .navbar .nav-item .dropdown-menu > li > a:hover,
-    .navbar .nav-item .dropdown-menu > li > a:focus {
-        color: #555;
-        background-color: #f8f8f8;
-    }
 }
 
 .padding-30 {
