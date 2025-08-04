@@ -3,6 +3,7 @@
     {% include head.html %}
     <body id="page-top" class="index">
     {% include nav.html %}
+    {% include sticky-banner.html %}
 
 <section class="success">
         <div class="container">
@@ -29,6 +30,8 @@
     {% include air.html %}
     {% elsif page.url contains "végétalisation" %}
     {% include vegetalisation.html %}
+    {% elsif page.url contains "lutte-incendie" %}
+    {% include lutte-incendie.html %}
     {% elsif page.url contains "association" %}
     {% include association.html %}
     {% endif %}
