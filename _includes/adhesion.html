@@ -21,17 +21,27 @@
                 <br>
 
                 <h3>Tarifs {{ site.time | date: '%Y' }}</h3>
-                <li style="font-size:20px"> 10€ pour la 1ère adhésion dans une maison et 5€ pour les personnes suivantes qui
-                    désirent adhérer</li>
-                <li style="font-size:20px">30€ pour les personnes morales</li>
-                <li style="font-size:20px">2€ pour les personnes en difficulté financière</li>
+                <ul style="font-size:20px; padding-left: 20px;">
+                    <li>10€ pour la 1ère adhésion dans une maison et 5€ pour les personnes suivantes qui désirent adhérer</li>
+                    <li>30€ pour les personnes morales</li>
+                    <li>2€ pour les personnes en difficulté financière</li>
+                </ul>
 
                 <br>
                 <br>
 
                 <h3>Virement</h3>
-                <p>IBAN: FR76 1027 8090 5400 0202 9560 155
-                <p>BIC: CMCIFR2A</p>
+                <p>IBAN: <code id="iban" style="font-size: 18px; background: #f5f5f5; padding: 5px 10px; border-radius: 4px;">FR76 1027 8090 5400 0202 9560 155</code>
+                <button onclick="copyIban()" class="btn btn-outline" style="font-size: 12px; padding: 5px 10px; margin-left: 10px;"><i class="fa fa-copy"></i> Copier</button></p>
+                <p>BIC: <code style="font-size: 18px; background: #f5f5f5; padding: 5px 10px; border-radius: 4px;">CMCIFR2A</code></p>
+                <script>
+                function copyIban() {
+                    var iban = "FR76 1027 8090 5400 0202 9560 155";
+                    navigator.clipboard.writeText(iban.replace(/\s/g, '')).then(function() {
+                        alert('IBAN copié !');
+                    });
+                }
+                </script>
 
                 <br>
                 <br>
