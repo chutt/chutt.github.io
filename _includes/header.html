@@ -8,9 +8,7 @@
                         <span class="name">Bienvenue !</span>
                         <hr class="star-light">
                         <span class="skills">{{ site.skills }}</span>
-                        <hr class="star-light">
-                        <p style="font-size:15px"><a href="https://www.fne13.fr/" target="_blank"><img class="img-responsive" src="/img/fne_bdr.png" alt="" width="150"></a><p>
-                        </span>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -29,7 +27,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="stat-item">
-                        <div class="stat-number">6 ans</div>
+                        {% assign current_year = site.time | date: '%Y' | plus: 0 %}
+                        {% assign years = current_year | minus: 2019 %}
+                        <div class="stat-number">{{ years }} ans</div>
                         <div class="stat-label">De mobilisation</div>
                     </div>
                 </div>
