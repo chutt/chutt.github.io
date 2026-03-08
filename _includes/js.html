@@ -11,3 +11,19 @@
     {% else %}
      <script src="{{ "/js/contact_me.js" }}"></script>
     {% endif %}
+
+    <!-- Lire la suite / Read more -->
+    <script>
+    function toggleDescription(link) {
+        var text = link.previousElementSibling;
+        if (text.classList.contains('collapsed')) {
+            text.classList.remove('collapsed');
+            text.classList.add('expanded');
+            link.textContent = 'Réduire';
+        } else {
+            text.classList.remove('expanded');
+            text.classList.add('collapsed');
+            link.textContent = 'Lire la suite';
+        }
+    }
+    </script>

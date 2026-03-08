@@ -1,0 +1,13 @@
+---
+layout: default
+date: 2026-02-07
+img:
+category: message
+expandable: true
+title: "Compte-rendu Agenda 21"
+description: "Le thème de la matinée portait sur les actualités des associations locales. Chutt est intervenu sur la mission d'information du Sénat à laquelle elle a participé. Sur les 22 propositions du Sénat, la rationalisation des plans de prévention du bruit dans l'environnement (PPBE) pour en faire des outils efficaces contre le bruit et non pas de simples outils de reporting sur l'Union européenne est un cheval de bataille de notre association. Nous souhaitons que, sur un même territoire comme Septèmes, les 3 collectivités Etat, département, Métropole AMP travaillent ensemble et produisent un document, et non pas séparément, en faisant 3 documents que de surcroît, elles ne mettent pas toujours en œuvre. La création de véritables Observatoires du Bruit était également une demande de Chutt au Sénat, qui l'a retenu. La création sur la Métropole d'un véritable observatoire régional du bruit, sur la métropole ou à l'échelle du département à l'instar de Bruit Parif pour la région parisienne et de Acoucité pour Lyon permettrait la mise en commun des moyens humains et financiers et le dialogue efficace entre collectivités publiques, entreprise et association de riverains. Dans le débat, est intervenu AtmoSud, association régionale, qui est justement un Observatoire de ce pour la qualité de l'air et qui est l'équivalent d'un observatoire regroupant des administrations des entreprises et des associations AtmoSud étudie en ce moment des capteurs mixtes bruit et qualité de l'air. Toutefois, ces capteurs appelés 'capteur citoyen' et qui compléteraient utilement des capteurs professionnels, rares car très chers, ne sont pas encore au point. AtmoSud a compris qu'existaient sur Septèmes à la fois une de leurs associations (Chutt est adhérent à AtmoSud depuis un an) et un FabLab (à la Médiathèque) avec des machines capables de produire des pièces de capteurs dès lors que les pièces principales auront été validées. Dans le reste de la journée, lors de la présentation des actions des Services de la Mairie en matière de développement durable, l'AESE et Chutt a eu l'occasion d'intervenir pour demander davantage de partenariat. Chutt a également suggéré que la ville intègre le réseau 'Communauté Décibels Villes' qui lutte contre le bruit, un réseau animé par le Centre d'Information du bruit (CIdB). La lutte contre le bruit est particulièrement difficile et technique et c'est en échangeant des expériences à plusieurs que l'on peut progresser."
+tags: ["bruit"]
+tag_url: "/bruit/"
+button_name:
+doclink:
+---

@@ -447,6 +447,36 @@ footer .footer-below {
     color: #2c3e50;
 }
 
+/* Read more / Lire plus */
+.post-description .description-text {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.post-description .description-text.collapsed {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post-description .description-text.expanded {
+    display: block;
+    -webkit-line-clamp: unset;
+}
+
+.lire-plus {
+    color: #{{ site.color.primary }};
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.lire-plus:hover {
+    text-decoration: underline;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active {

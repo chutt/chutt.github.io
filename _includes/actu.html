@@ -39,7 +39,14 @@
                         {% endfor %}
                         ]
                       </span>
-                        <p style="font-size: 20px; text-align: justify; margin-top:10px">{{ post.description }}</p>
+                        <div class="post-description" style="font-size: 20px; text-align: justify; margin-top:10px">
+                            {% if post.expandable %}
+                            <p class="description-text collapsed">{{ post.description }}</p>
+                            <a href="#" class="lire-plus" onclick="toggleDescription(this); return false;">Lire la suite</a>
+                            {% else %}
+                            <p>{{ post.description }}</p>
+                            {% endif %}
+                        </div>
 
                         {% if post.category contains 'pv' %}
                         <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
