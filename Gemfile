@@ -4,3 +4,4 @@ gem "jekyll-paginate"
 gem "jekyll-archives"
 gem "webrick", "~> 1.8"
 gem 'jekyll-redirect-from'
+gem 'bootstrap', '~> 4.0.0'
