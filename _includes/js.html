@@ -27,11 +27,18 @@
         }
     }
 
-    // Scroll vers l'ancre au chargement de la page
+    // Scroll vers l'ancre au chargement de la page et expand l'article
     $(document).ready(function() {
         if (window.location.hash) {
             var target = $(window.location.hash);
             if (target.length) {
+                // Expand l'article si il est collapsed
+                var descText = target.find('.description-text.collapsed');
+                if (descText.length) {
+                    descText.removeClass('collapsed').addClass('expanded');
+                    target.find('.lire-plus').text('Réduire');
+                }
+                // Scroll vers l'article
                 $('html, body').animate({
                     scrollTop: target.offset().top - 80
                 }, 500);
