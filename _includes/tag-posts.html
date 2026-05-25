@@ -1,4 +1,6 @@
- <div class="container">
+<section class="Portfolio" id="about">
+
+    <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2" style="text-align: justify;">
                 <h3 style="margin-bottom: 30px">Articles de la rubrique <span class="post-tags">
@@ -7,29 +9,56 @@
                             ]
                               ({{site.tags[page.tag]|size}})
                           </span></h3>
+            </div>
+        </div>
 
+        {% for post in site.tags[page.tag] %}
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2" style="text-align: justify;" id="{{ post.slug }}">
+                <p style="font-size: 25px;">{{ post.title }}</p>
+                <i>Publié le {{ post.date | date: "%d-%m-%Y" }} dans la rubrique </i>
+                <span class="post-tags">
+                    [&nbsp;
+                    {% for tag in post.tags %}
+                      {% capture tag_name %}{{ tag }}{% endcapture %}
+                      <a class="no-underline" href="{{ post.tag_url }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                    {% endfor %}
+                    ]
+                </span>
+                <div class="post-description" style="font-size: 20px; text-align: justify; margin-top:10px">
+                    <p class="description-text collapsed">{{ post.description }}</p>
+                    <a href="#" class="lire-plus" onclick="toggleDescription(this); return false;">Lire la suite</a>
+                </div>
 
-                {% for post in site.tags[page.tag] %}
-                {% if post.lang %}
-                <p> lang="{{post.lang}}"></p>
-                {% else %}
-                <p>
-                    {% endif %}
-                    <a href="{{ post.doclink }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-                    {{ post.description }}
-                    <!-- Tags: {{ post.tags | join: ", " }} -->
-                </p>
-                {% if post.category == 'image' %}
+                {% if post.category contains 'pv' %}
+                <a href="{{ post.doclink }}" class="btn btn-outline post-action" style="font-size: 15px">
+                <i class="fa fa-download"></i> Consultez le PV</a>
+
+                {% elsif post.category == 'info' %}
+                <a href="{{ post.doclink }}" class="btn btn-outline post-action" style="font-size: 15px">
+                <i class="fa fa-download"></i> {{ post.button_name }}</a>
+
+                {% elsif post.category == 'statuts' %}
+                <a href="{{ post.doclink }}" class="btn btn-outline post-action" style="font-size: 15px">
+                <i class="fa fa-download"></i> Consultez les statuts</a>
+
+                {% elsif post.category == 'presse' %}
+                <a href="{{ post.doclink }}" class="btn btn-outline post-action" style="font-size: 15px">
+                <i class="fa fa-download"></i> Lire l'article</a>
+
+                {% elsif post.category == 'image' %}
                 {% for image in post.img %}
                 <div style="text-align: center; margin-bottom: 10px;">
                     <img src="/img/{{ image.name }}" class="img-responsive img-rounded">
                 </div>
-
                 {% endfor %}
+
                 {% endif %}
+
                 <br/>
                 <hr/>
-                {% endfor %}
             </div>
         </div>
+        {% endfor %}
     </div>
+</section>

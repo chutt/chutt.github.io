@@ -40,28 +40,24 @@
                         ]
                       </span>
                         <div class="post-description" style="font-size: 20px; text-align: justify; margin-top:10px">
-                            {% if post.expandable %}
                             <p class="description-text collapsed">{{ post.description }}</p>
                             <a href="#" class="lire-plus" onclick="toggleDescription(this); return false;">Lire la suite</a>
-                            {% else %}
-                            <p>{{ post.description }}</p>
-                            {% endif %}
                         </div>
 
                         {% if post.category contains 'pv' %}
-                        <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
+                        <a href="{{ post.doclink }}" class="btn btn-outline post-action" style="font-size: 15px">
                         <i class="fa fa-download"></i> Consultez le PV</a>
 
                         {% elsif post.category == 'info' %}
-                        <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
+                        <a href="{{ post.doclink }}" class="btn btn-outline post-action" style="font-size: 15px">
                         <i class="fa fa-download"></i> {{ post.button_name }}</a>
 
                         {% elsif post.category == 'statuts' %}
-                        <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
+                        <a href="{{ post.doclink }}" class="btn btn-outline post-action" style="font-size: 15px">
                         <i class="fa fa-download"></i> Consultez les statuts</a style="font-size: 15px">
 
                         {% elsif post.category == 'presse' %}
-                        <a href="{{ post.doclink }}" class="btn btn-outline" style="font-size: 15px">
+                        <a href="{{ post.doclink }}" class="btn btn-outline post-action" style="font-size: 15px">
                         <i class="fa fa-download"></i> Lire l'article</a>
 
                         {% elsif post.category == 'image' %}

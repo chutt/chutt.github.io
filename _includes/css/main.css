@@ -469,8 +469,16 @@ footer .footer-below {
     color: #{{ site.color.primary }};
     font-weight: 600;
     cursor: pointer;
-    display: inline-block;
+    display: none;
     margin-top: 5px;
+}
+
+.lire-plus.is-visible {
+    display: inline-block;
+}
+
+.post-action.is-hidden {
+    display: none;
 }
 
 .lire-plus:hover {

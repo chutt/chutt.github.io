@@ -14,35 +14,79 @@
 
     <!-- Lire la suite / Read more -->
     <script>
-    function toggleDescription(link) {
-        var text = link.previousElementSibling;
-        if (text.classList.contains('collapsed')) {
-            text.classList.remove('collapsed');
-            text.classList.add('expanded');
-            link.textContent = 'Réduire';
-        } else {
-            text.classList.remove('expanded');
-            text.classList.add('collapsed');
-            link.textContent = 'Lire la suite';
-        }
+    function postActionFor(descText) {
+        // Le bouton d'action se trouve comme frère de .post-description (parent du texte)
+        return $(descText).closest('.post-description').nextAll('.post-action').first();
     }
 
-    // Scroll vers l'ancre au chargement de la page et expand l'article
-    $(document).ready(function() {
-        if (window.location.hash) {
-            var target = $(window.location.hash);
-            if (target.length) {
-                // Expand l'article si il est collapsed
-                var descText = target.find('.description-text.collapsed');
-                if (descText.length) {
-                    descText.removeClass('collapsed').addClass('expanded');
-                    target.find('.lire-plus').text('Réduire');
-                }
-                // Scroll vers l'article
-                $('html, body').animate({
-                    scrollTop: target.offset().top - 80
-                }, 500);
+    function toggleDescription(link) {
+        var text = link.previousElementSibling;
+        var $action = postActionFor(text);
+        text.classList.remove('collapsed');
+        text.classList.add('expanded');
+        link.classList.remove('is-visible');
+        $action.removeClass('is-hidden');
+    }
+
+    // Affiche "Lire la suite" uniquement si la description est tronquée.
+    // Quand "Lire la suite" est visible, masque le bouton d'action jusqu'au dépliage.
+    function refreshLirePlus() {
+        $('.description-text').each(function() {
+            var $btn = $(this).next('.lire-plus');
+            var $action = postActionFor(this);
+            if (!$btn.length) {
+                $action.removeClass('is-hidden');
+                return;
             }
+            if ($(this).hasClass('expanded')) {
+                $btn.removeClass('is-visible');
+                $action.removeClass('is-hidden');
+                return;
+            }
+            if (this.scrollHeight > this.clientHeight + 1) {
+                $btn.addClass('is-visible');
+                $action.addClass('is-hidden');
+            } else {
+                $btn.removeClass('is-visible');
+                $action.removeClass('is-hidden');
+            }
+        });
+    }
+
+    // Empêche le navigateur de restaurer une position obsolète au refresh
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+
+    function scrollToHashTarget() {
+        if (!window.location.hash) return;
+        var target = $(window.location.hash);
+        if (!target.length) return;
+        // Expand l'article si il est collapsed
+        var descText = target.find('.description-text.collapsed');
+        if (descText.length) {
+            descText.removeClass('collapsed').addClass('expanded');
+            target.find('.lire-plus').removeClass('is-visible');
+            target.find('.post-action').removeClass('is-hidden');
         }
+        // Scroll vers l'article (compense la hauteur de la navbar fixe)
+        var navHeight = $('.navbar').outerHeight() || 80;
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top - navHeight - 20
+        }, 500);
+    }
+
+    $(document).ready(function() {
+        refreshLirePlus();
     });
+
+    // Attend que toutes les ressources soient chargées (images, polices) pour
+    // calculer la position correcte de la cible.
+    $(window).on('load', function() {
+        refreshLirePlus();
+        scrollToHashTarget();
+    });
+
+    $(window).on('resize', refreshLirePlus);
+    $(window).on('hashchange', scrollToHashTarget);
     </script>
